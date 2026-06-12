@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" fill="none">
+  <rect width="180" height="180" rx="40" fill="#ffffff" stroke="#151515" stroke-width="4" />
+  <rect width="90" height="180" rx="40 0 0 40" fill="#151515" />
+  <text
+    x="45"
+    y="108"
+    text-anchor="middle"
+    fill="#ffffff"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="46"
+    font-weight="700"
+    letter-spacing="4"
+  >
+    FO
+  </text>
+  <text
+    x="135"
+    y="108"
+    text-anchor="middle"
+    fill="#151515"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="28"
+    font-weight="700"
+    letter-spacing="2"
+  >
+    STUDIO
+  </text>
+</svg>

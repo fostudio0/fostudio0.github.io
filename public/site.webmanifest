@@ -1,0 +1,21 @@
+{
+  "name": "FO Studio",
+  "short_name": "FO Studio",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "theme_color": "#f6f3ed",
+  "background_color": "#f6f3ed",
+  "display": "standalone"
+}

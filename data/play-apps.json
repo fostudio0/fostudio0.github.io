@@ -1,0 +1,116 @@
+{
+  "fetchedAt": "2026-06-12T23:32:10.609Z",
+  "developerUrl": "https://play.google.com/store/apps/dev?id=6929581014777072329",
+  "apps": [
+    {
+      "appId": "com.ferhatozcelik.mycodes",
+      "href": "https://play.google.com/store/apps/details?id=com.ferhatozcelik.mycodes",
+      "icon": "https://play-lh.googleusercontent.com/mA7RnjCR9LDWejgFrhcMUEW7cWZ1gLf7Hg_akT4bUOcAijHgVSCZxWGqpyj-cDVXPbuYWjQy6qAy-o_7-yPjuL8",
+      "alt": "My Codes – QR Code & Scanner",
+      "en": {
+        "name": "My Codes – QR Code & Scanner",
+        "description": "My Codes – QR Code Wallet & Scanner for Wear OS Keep your QR codes accessible anytime, directly from your Wear OS smartwatch. My Codes is a…",
+        "score": 2.7692308,
+        "scoreText": "2.8",
+        "ratings": 71,
+        "installs": "10,000+"
+      },
+      "tr": {
+        "name": "Kodlarım – QR Kod ve Tarayıcı",
+        "description": "Kodlarım – Wear OS için QR Kod Cüzdanı ve Tarayıcı QR kodlarınız Wear OS akıllı saatinizden her an elinizin altında olsun. Kodlarım, Wear O…",
+        "score": 3.857143,
+        "scoreText": "3,9",
+        "ratings": 71,
+        "installs": "10.000+"
+      }
+    },
+    {
+      "appId": "com.ferhatozcelik.zenlio",
+      "href": "https://play.google.com/store/apps/details?id=com.ferhatozcelik.zenlio",
+      "icon": "https://play-lh.googleusercontent.com/0DsJHqflWm07xOkCcTFkIuP52pYIeD6gRwNrWIkHeShCejdbZcoJ5e_TThBLvoDoON4EIlqtNH5BfP2PdlWczA",
+      "alt": "Zenlio",
+      "en": {
+        "name": "Zenlio",
+        "description": "Zenlio — sakinlik için ses ve nefes Zenlio, günlük stresi yumuşatmanıza yardımcı olmak için tasarlanmış sade bir refah uygulamasıdır. Rezon…",
+        "score": null,
+        "scoreText": null,
+        "ratings": null,
+        "installs": "10+"
+      },
+      "tr": {
+        "name": "Zenlio",
+        "description": "Zenlio — sakinlik için ses ve nefes Zenlio, günlük stresi yumuşatmanıza yardımcı olmak için tasarlanmış sade bir refah uygulamasıdır. Rezon…",
+        "score": 0,
+        "scoreText": "0,0",
+        "ratings": 0,
+        "installs": "10+"
+      }
+    },
+    {
+      "appId": "com.ferhatozcelik.ulgen",
+      "href": "https://play.google.com/store/apps/details?id=com.ferhatozcelik.ulgen",
+      "icon": "https://play-lh.googleusercontent.com/NaJg5dyS_ibDKLTTqLZzz5vMg_Vq3rQnUXCo193JaNV7WPP42GggRW1hbNitdXhnPqcOcTkz_pTtoicbr4zrZfM",
+      "alt": "Ulgen – Secure Link Protection",
+      "en": {
+        "name": "Ulgen – Secure Link Protection",
+        "description": "🌐 Ulgen – Güvenli ve Akıllı İnternet Deneyimi Ulgen, internette daha güvenli, kontrollü ve huzurlu bir şekilde gezinebilmeniz için gelişti…",
+        "score": null,
+        "scoreText": null,
+        "ratings": null,
+        "installs": "10+"
+      },
+      "tr": {
+        "name": "Ulgen – Güvenli Koruma",
+        "description": "🌐 Ulgen – Güvenli ve Akıllı İnternet Deneyimi Ulgen, internette daha güvenli, kontrollü ve huzurlu bir şekilde gezinmeniz için geliştirilm…",
+        "score": null,
+        "scoreText": null,
+        "ratings": null,
+        "installs": "10+"
+      }
+    },
+    {
+      "appId": "com.ferhatozcelik.spincoater",
+      "href": "https://play.google.com/store/apps/details?id=com.ferhatozcelik.spincoater",
+      "icon": "https://play-lh.googleusercontent.com/4Q7guKLHnxo_lMm2ga3O22cgtuFDTiZt_jZqKIz2NOKneIEVS33kqzwibJcpGhhNKZw",
+      "alt": "StellNex",
+      "en": {
+        "name": "StellNex",
+        "description": "StellNex is a technology company specializing in high-performance research devices in the field of thin films. It stands out as a significa…",
+        "score": null,
+        "scoreText": null,
+        "ratings": null,
+        "installs": "10+"
+      },
+      "tr": {
+        "name": "StellNex",
+        "description": "StellNex, ince film teknolojileri alanında yüksek performanslı araştırma cihazları konusunda uzmanlaşmış bir teknoloji şirketidir. OLED'ler…",
+        "score": 0,
+        "scoreText": "0,0",
+        "ratings": 0,
+        "installs": "10+"
+      }
+    },
+    {
+      "appId": "ferhatozcelik.zincirikirma",
+      "href": "https://play.google.com/store/apps/details?id=ferhatozcelik.zincirikirma",
+      "icon": "https://play-lh.googleusercontent.com/tl0IPgmk8MAj5WMLfRnCC6pv1f7DurtJERAK2rvjASsY4uOU0g4qW_A37ls1mVHugeNQ2HTj8WQgURNIKlgf4w",
+      "alt": "Keep the Chain | Goals, Habits",
+      "en": {
+        "name": "Keep the Chain | Goals, Habits",
+        "description": "\"Zinciri Kırmayın | Hedefler, Alışkanlıklar\", ister yeni alışkanlıklar edinmek ister eski alışkanlıklardan kurtulmak istiyor olun, alışkanl…",
+        "score": 3.2727273,
+        "scoreText": "3.3",
+        "ratings": 394,
+        "installs": "10,000+"
+      },
+      "tr": {
+        "name": "Zinciri Kırma | Hedefler",
+        "description": "\"Zinciri Kırmayın | Hedefler, Alışkanlıklar\", ister yeni alışkanlıklar edinmek ister mevcut alışkanlıklarınızdan kurtulmak isteyin, alışkan…",
+        "score": 3.83,
+        "scoreText": "3,8",
+        "ratings": 394,
+        "installs": "10.000+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" rx="8" fill="#ffffff" stroke="#151515" stroke-width="1.5" />
+  <rect width="16" height="32" rx="8 0 0 8" fill="#151515" />
+  <text
+    x="8"
+    y="21"
+    text-anchor="middle"
+    fill="#ffffff"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    font-weight="700"
+    letter-spacing="0.5"
+  >
+    FO
+  </text>
+  <text
+    x="24"
+    y="21"
+    text-anchor="middle"
+    fill="#151515"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="6"
+    font-weight="700"
+    letter-spacing="0.3"
+  >
+    ST
+  </text>
+</svg>
