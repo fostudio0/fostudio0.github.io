@@ -5,16 +5,23 @@ import type { AppItem } from "@/lib/play-apps";
 import type { Messages } from "@/i18n/messages";
 
 type SiteHeaderProps = {
-  brand: string;
+  brand?: string;
+  wordmark?: string;
 };
 
-export function SiteHeader({ brand }: SiteHeaderProps) {
+export function SiteHeader({ brand, wordmark }: SiteHeaderProps) {
   return (
     <header className="site-header">
       <div className="page-shell site-header-inner">
-        <a href="/" className="brand">
-          <LogoMark className="brand-mark" title={brand} />
-        </a>
+        {wordmark ? (
+          <a href="/" className="brand brand-text">
+            {wordmark}
+          </a>
+        ) : (
+          <a href="/" className="brand">
+            <LogoMark className="brand-mark" title={brand} />
+          </a>
+        )}
         <LanguageSwitcher />
       </div>
     </header>

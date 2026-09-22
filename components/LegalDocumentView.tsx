@@ -44,7 +44,7 @@ export function LegalDocumentView({ slug }: LegalDocumentViewProps) {
   }, [chrome.description, doc]);
 
   return (
-    <LegalLayout backHref="/legal/" backLabel={chrome.backToMenu}>
+    <LegalLayout backHref="/yasal-belgeler/" backLabel={chrome.backToMenu}>
       <h1 className="policy-page-title">
         {doc?.title ?? chrome.fallbackTitle}
       </h1>

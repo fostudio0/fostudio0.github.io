@@ -81,7 +81,7 @@ function cleanLegalHtml(html: string): string {
     "g",
   );
   return html
-    .replace(edgeLinkRe, (_match, slug) => `/legal/${slug}/`)
+    .replace(edgeLinkRe, (_match, slug) => `/${slug}/`)
     .replace(/\{\{\s*[a-z_]+\s*\}\}/gi, "")
     .replace(/FO\s*Studio/gi, "")
     .replace(/<strong>\s*<\/strong>/gi, "")

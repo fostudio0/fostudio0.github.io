@@ -56,7 +56,7 @@ export function LegalMenuView() {
           {index.documents.map((item) => (
             <a
               key={item.slug}
-              href={`/legal/${item.slug}/`}
+              href={item.slug === "privacy" ? "/privacy-policy/" : `/${item.slug}/`}
               className="legal-menu-item"
             >
               <span className="legal-menu-title">{item.title}</span>

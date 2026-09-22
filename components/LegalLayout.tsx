@@ -3,7 +3,6 @@
 import type { ReactNode } from "react";
 import { SiteHeader } from "@/components/HeroSection";
 import { useLocale } from "@/i18n/locale-context";
-import { getMessages } from "@/i18n/messages";
 
 export const LEGAL_CHROME: Record<
   "tr" | "en",
@@ -39,12 +38,10 @@ type LegalLayoutProps = {
 
 export function LegalLayout({ backHref, backLabel, children }: LegalLayoutProps) {
   const { locale } = useLocale();
-  const homeMessages = getMessages(locale);
   const chrome = LEGAL_CHROME[locale];
-
   return (
     <div className="page policy-page">
-      <SiteHeader brand={homeMessages.header.brand} />
+      <SiteHeader wordmark={chrome.menuTitle} />
       <main className="policy-main page-shell">
         <div className="policy-toolbar">
           <a href={backHref} className="policy-back-link">
@@ -56,7 +53,7 @@ export function LegalLayout({ backHref, backLabel, children }: LegalLayoutProps)
 
       <footer className="policy-footer">
         <div className="page-shell policy-footer-inner">
-          <a href="/legal/" className="footer-link">
+          <a href="/yasal-belgeler/" className="footer-link">
             {chrome.menuTitle}
           </a>
         </div>

@@ -1,17 +1,11 @@
-"use client";
+import type { Metadata } from "next";
+import { LegalDocumentView } from "@/components/LegalDocumentView";
 
-import { useEffect } from "react";
+export const metadata: Metadata = {
+  title: "Gizlilik Politikası",
+  description: "Yasal belgeler",
+};
 
-const LEGACY_TARGET = "/legal/";
-
-export default function LegacyPrivacyRedirect() {
-  useEffect(() => {
-    window.location.replace(LEGACY_TARGET);
-  }, []);
-
-  return (
-    <head>
-      <meta httpEquiv="refresh" content={`0; url=${LEGACY_TARGET}`} />
-    </head>
-  );
+export default function PrivacyPolicyPage() {
+  return <LegalDocumentView slug="privacy" />;
 }
