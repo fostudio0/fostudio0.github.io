@@ -9,6 +9,47 @@ const DEVELOPER_URL =
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUTPUT_PATH = path.join(__dirname, "..", "data", "play-apps.json");
 
+const CURATED_ORDER = [
+  "com.ferhatozcelik.mycodes",
+  "ferhatozcelik.zincirikirma",
+  "com.ferhatozcelik.ulgen",
+  "com.tulparim",
+  "com.ferhatozcelik.spincoater",
+];
+
+function parseInstalls(value) {
+  if (value == null) {
+    return 0;
+  }
+  const digits = value.replace(/[^\d]/g, "");
+  return digits ? Number(digits) : 0;
+}
+
+function computeTotals(apps) {
+  const rated = apps
+    .map((app) => ({
+      score: app.en.score ?? app.tr.score,
+      ratings: app.en.ratings ?? app.tr.ratings,
+    }))
+    .filter((item) => typeof item.score === "number" && typeof item.ratings === "number" && item.ratings > 0);
+
+  const totalRatings = rated.reduce((sum, item) => sum + item.ratings, 0);
+  const weightedScore = rated.reduce(
+    (sum, item) => sum + item.score * item.ratings,
+    0,
+  );
+
+  return {
+    apps: apps.length,
+    totalDownloads: apps.reduce(
+      (sum, app) => sum + parseInstalls(app.en.installs ?? app.tr.installs),
+      0,
+    ),
+    totalRatings,
+    avgScore: totalRatings > 0 ? Number((weightedScore / totalRatings).toFixed(1)) : null,
+  };
+}
+
 function stripHtml(value) {
   return (
     value
@@ -96,15 +137,20 @@ async function main() {
     }),
   );
 
+  const curatedApps = CURATED_ORDER.map((appId) =>
+    apps.find((app) => app.appId === appId),
+  ).filter((app) => app != null);
+
   const payload = {
     fetchedAt: new Date().toISOString(),
     developerUrl: DEVELOPER_URL,
-    apps,
+    totals: computeTotals(curatedApps),
+    apps: curatedApps,
   };
 
   fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
   fs.writeFileSync(OUTPUT_PATH, `${JSON.stringify(payload, null, 2)}\n`);
-  console.log(`Saved ${apps.length} apps to ${OUTPUT_PATH}`);
+  console.log(`Saved ${curatedApps.length} apps to ${OUTPUT_PATH}`);
 }
 
 main().catch((error) => {

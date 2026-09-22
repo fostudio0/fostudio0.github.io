@@ -22,9 +22,17 @@ type LocaleAppData = {
   installs: string | null;
 };
 
+export type PlayTotals = {
+  apps: number;
+  totalDownloads: number;
+  totalRatings: number;
+  avgScore: number | null;
+};
+
 export type PlayAppsCatalog = {
   fetchedAt: string;
   developerUrl: string;
+  totals: PlayTotals;
   apps: Array<{
     appId: string;
     href: string;
@@ -57,4 +65,8 @@ export function getLocalizedApps(locale: Locale): AppItem[] {
 
 export function getAppCount(): number {
   return catalog.apps.length;
+}
+
+export function getTotals(): PlayTotals {
+  return catalog.totals;
 }

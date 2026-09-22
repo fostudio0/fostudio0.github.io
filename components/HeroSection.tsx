@@ -21,12 +21,18 @@ export function SiteHeader({ brand }: SiteHeaderProps) {
   );
 }
 
+export type HeroStat = {
+  value: string;
+  label: string;
+};
+
 type HeroSectionProps = {
   hero: Messages["hero"];
+  stats: HeroStat[];
   apps: AppItem[];
 };
 
-export function HeroSection({ hero, apps }: HeroSectionProps) {
+export function HeroSection({ hero, stats, apps }: HeroSectionProps) {
   const showcaseApps = apps.slice(0, 5);
 
   return (
@@ -54,7 +60,7 @@ export function HeroSection({ hero, apps }: HeroSectionProps) {
               </div>
             </div>
             <div className="hero-stat-grid">
-              {hero.stats.map((stat) => (
+              {stats.map((stat) => (
                 <div key={stat.label} className="hero-stat">
                   <div className="hero-stat-value">{stat.value}</div>
                   <div className="hero-stat-label">{stat.label}</div>

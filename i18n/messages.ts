@@ -13,10 +13,12 @@ export type Messages = {
     titles: string[];
     subtitle: string;
     cta: string;
-    stats: Array<{
-      value: string;
-      label: string;
-    }>;
+    statsLabels: {
+      apps: string;
+      downloads: string;
+      ratings: string;
+      score: string;
+    };
   };
   apps: {
     title: string;
@@ -56,11 +58,12 @@ const messages: Record<Locale, Messages> = {
       subtitle:
         "FO Studio; Wear OS, üretkenlik ve günlük alışkanlıklar için Android deneyimleri geliştirir.",
       cta: "Uygulamaları keşfet",
-      stats: [
-        { value: "0", label: "Uygulama" },
-        { value: "Android", label: "Platform" },
-        { value: "FO", label: "Stüdyo" },
-      ],
+      statsLabels: {
+        apps: "Uygulama",
+        downloads: "Toplam indirme",
+        ratings: "Değerlendirme",
+        score: "Ort. puan",
+      },
     },
     apps: {
       title: "Uygulamalarımız",
@@ -92,11 +95,12 @@ const messages: Record<Locale, Messages> = {
       subtitle:
         "FO Studio builds Android experiences for Wear OS, productivity, and everyday habits.",
       cta: "Explore apps",
-      stats: [
-        { value: "0", label: "Apps" },
-        { value: "Android", label: "Platform" },
-        { value: "FO", label: "Studio" },
-      ],
+      statsLabels: {
+        apps: "Apps",
+        downloads: "Total downloads",
+        ratings: "Ratings",
+        score: "Avg. rating",
+      },
     },
     apps: {
       title: "Our apps",

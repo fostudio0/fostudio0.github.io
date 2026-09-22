@@ -34,12 +34,7 @@ function buildPageMessages(locale: Locale): PageMessages {
 
   return {
     ...base,
-    hero: {
-      ...base.hero,
-      stats: base.hero.stats.map((stat, index) =>
-        index === 0 ? { ...stat, value: String(items.length) } : stat,
-      ),
-    },
+    hero: base.hero,
     apps: {
       ...base.apps,
       items,
