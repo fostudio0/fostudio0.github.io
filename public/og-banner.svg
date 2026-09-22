@@ -1,0 +1,24 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0V56" fill="none" stroke="#151515" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dbeafe"/>
+      <stop offset="1" stop-color="#fce7f3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#f6f3ed"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="140" cy="120" r="180" fill="#93c5fd" opacity="0.35"/>
+  <circle cx="1060" cy="520" r="200" fill="#f9a8d4" opacity="0.3"/>
+  <rect x="300" y="90" width="600" height="450" rx="36" fill="url(#panel)" stroke="rgba(255,255,255,0.8)" stroke-width="2"/>
+  <g>
+    <rect x="480" y="200" width="240" height="96" rx="8" fill="#ffffff" stroke="#151515" stroke-width="2"/>
+    <path d="M480 200 H600 V296 H480 Z" fill="#151515"/>
+    <rect x="600" y="200" width="120" height="96" fill="#ffffff"/>
+    <text x="540" y="262" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" letter-spacing="3">FO</text>
+    <text x="660" y="254" text-anchor="middle" fill="#151515" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" letter-spacing="2">STUDIO</text>
+  </g>
+  <text x="600" y="430" text-anchor="middle" fill="#5b5b5b" font-family="Arial, Helvetica, sans-serif" font-size="24">Independent studio designing and building Android applications.</text>
+</svg>

@@ -30,6 +30,9 @@ export async function generateMetadata({
   return {
     title: SLUG_TITLES[slug] ?? "Yasal Belgeler",
     description: "Yasal belgeler",
+    alternates: {
+      canonical: `/${slug}/`,
+    },
   };
 }
 

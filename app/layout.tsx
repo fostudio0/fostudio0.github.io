@@ -7,6 +7,18 @@ export const metadata: Metadata = {
   title: "FO Studio",
   description: "Independent studio designing and building Android applications.",
   manifest: "/site.webmanifest",
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    type: "website",
+    locale: "tr_TR",
+    alternateLocale: "en_US",
+  },
+  twitter: {
+    card: "summary",
+  },
   icons: {
     icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
     apple: [{ url: "/apple-icon.svg", type: "image/svg+xml", sizes: "180x180" }],
