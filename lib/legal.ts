@@ -19,6 +19,16 @@ export type LegalIndex = {
 
 const LEGAL_ORIGIN = "https://jcqkznspriizdmsbjvvj.supabase.co";
 const LEGAL_PACKAGE = "fostudio0.github.io";
+export const LEGAL_SLUGS = [
+  "privacy",
+  "terms",
+  "account-deletion",
+  "cookies",
+  "membership",
+  "visitor",
+  "commercial",
+  "application",
+];
 const TTL_MS = 72 * 60 * 60 * 1000;
 const CACHE_KEY = "fo-studio-legal-cache";
 
@@ -71,7 +81,7 @@ function cleanLegalHtml(html: string): string {
     "g",
   );
   return html
-    .replace(edgeLinkRe, (_match, slug) => `/privacy-policy/#${slug}`)
+    .replace(edgeLinkRe, (_match, slug) => `/privacy-policy/${slug}/`)
     .replace(/\{\{\s*[a-z_]+\s*\}\}/gi, "")
     .replace(/FO\s*Studio/gi, "")
     .replace(/<strong>\s*<\/strong>/gi, "")

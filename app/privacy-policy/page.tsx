@@ -1,5 +1,5 @@
-import { LegalPage } from "@/components/LegalPage";
+import { LegalMenuView } from "@/components/LegalMenuView";
 
-export default function LegalDocumentsPage() {
-  return <LegalPage />;
+export default function LegalMenuPage() {
+  return <LegalMenuView />;
 }
