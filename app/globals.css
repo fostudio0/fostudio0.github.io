@@ -574,7 +574,8 @@ a {
   color: var(--text);
 }
 
-.policy-document ul {
+.policy-document ul,
+.policy-document ol {
   margin: 0.5rem 0 1rem 1.25rem;
   color: var(--text-muted);
 }
@@ -620,6 +621,77 @@ a {
 .policy-retry:hover {
   border-color: var(--accent);
   color: var(--accent);
+}
+
+.legal-menu {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.legal-menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  padding: 1.15rem 1.35rem;
+  border-radius: var(--radius-lg);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  box-shadow: 0 10px 30px rgba(21, 21, 21, 0.04);
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.legal-menu-item:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
+  border-color: rgba(29, 78, 216, 0.18);
+}
+
+.legal-menu-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+
+.legal-menu-arrow {
+  color: var(--accent);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.policy-document-loading {
+  display: grid;
+  gap: 1.1rem;
+  background: var(--bg-elevated);
+}
+
+.legal-shimmer {
+  border-radius: var(--radius-sm);
+  background: linear-gradient(
+    90deg,
+    var(--bg-muted) 25%,
+    var(--border) 40%,
+    var(--bg-muted) 55%
+  );
+  background-size: 300% 100%;
+  animation: legal-shimmer 1.4s ease-in-out infinite;
+}
+
+@keyframes legal-shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .legal-shimmer {
+    animation: none;
+  }
 }
 
 .policy-footer {

@@ -1,5 +1,5 @@
-import { PrivacyPolicyView } from "@/components/PrivacyPolicyView";
+import { LegalPage } from "@/components/LegalPage";
 
-export default function PrivacyPolicyPage() {
-  return <PrivacyPolicyView />;
+export default function LegalDocumentsPage() {
+  return <LegalPage />;
 }

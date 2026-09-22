@@ -28,7 +28,7 @@ export type Messages = {
     downloadsLabel: string;
   };
   footer: {
-    privacyPolicy: string;
+    legalDocuments: string;
     tagline: string;
   };
 };
@@ -73,7 +73,7 @@ const messages: Record<Locale, Messages> = {
       downloadsLabel: "indirme",
     },
     footer: {
-      privacyPolicy: "Gizlilik Politikası",
+      legalDocuments: "Yasal Belgeler",
       tagline: "Hayal ettiğiniz deneyimleri gerçeğe dönüştürüyoruz.",
     },
   },
@@ -110,7 +110,7 @@ const messages: Record<Locale, Messages> = {
       downloadsLabel: "downloads",
     },
     footer: {
-      privacyPolicy: "Privacy Policy",
+      legalDocuments: "Legal Documents",
       tagline: "Turning the experiences you imagine into reality.",
     },
   },
