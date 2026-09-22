@@ -9,7 +9,7 @@ export function SiteFooter({ footer }: SiteFooterProps) {
     <footer className="site-footer">
       <div className="page-shell site-footer-inner">
         <p className="footer-tagline">{footer.tagline}</p>
-        <a href="/privacy-policy/" className="footer-link">
+        <a href="/legal/" className="footer-link">
           {footer.legalDocuments}
         </a>
       </div>
