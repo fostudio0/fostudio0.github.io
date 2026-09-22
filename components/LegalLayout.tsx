@@ -53,7 +53,7 @@ export function LegalLayout({ backHref, backLabel, children }: LegalLayoutProps)
 
       <footer className="policy-footer">
         <div className="page-shell policy-footer-inner">
-          <a href="/yasal-belgeler/" className="footer-link">
+          <a href="/legal-documents/" className="footer-link">
             {chrome.menuTitle}
           </a>
         </div>
