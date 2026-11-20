@@ -28,6 +28,17 @@ export type Messages = {
     reviewsLabel: string;
     downloadsLabel: string;
   };
+  site: {
+    eyebrow: string;
+    title: string;
+    subtitle: string;
+    appsStat: string;
+    categoriesStat: string;
+    sectionTitle: string;
+    allOnPlay: string;
+    footerPrefix: string;
+    footerSuffix: string;
+  };
   appPage: {
     backHome: string;
     download: string;
@@ -85,6 +96,18 @@ const messages: Record<Locale, Messages> = {
       reviewsLabel: "değerlendirme",
       downloadsLabel: "indirme",
     },
+    site: {
+      eyebrow: "Android · Wear OS uygulamaları",
+      title: "Günlük hayatı kolaylaştıran uygulamalar",
+      subtitle:
+        "Güvenli internetten tarla takibine, araç bakımından alışkanlık takibine ve oyunlara kadar her biri tek bir işi iyi yapmak için tasarlandı.",
+      appsStat: "uygulama",
+      categoriesStat: "kategori",
+      sectionTitle: "Uygulamalar",
+      allOnPlay: "Google Play'de tümü →",
+      footerPrefix: "Tüm uygulamalar",
+      footerSuffix: "'de",
+    },
     appPage: {
       backHome: "Tüm uygulamalar",
       download: "Google Play'den indir",
@@ -133,6 +156,18 @@ const messages: Record<Locale, Messages> = {
       detailsLabel: "View app",
       reviewsLabel: "reviews",
       downloadsLabel: "downloads",
+    },
+    site: {
+      eyebrow: "Android · Wear OS apps",
+      title: "Apps that make everyday life easier",
+      subtitle:
+        "From safer browsing to field tracking, vehicle care, habit building and games, each one is designed to do one job well.",
+      appsStat: "apps",
+      categoriesStat: "categories",
+      sectionTitle: "Apps",
+      allOnPlay: "All on Google Play →",
+      footerPrefix: "All apps are on",
+      footerSuffix: "",
     },
     appPage: {
       backHome: "All apps",

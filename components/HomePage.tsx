@@ -1,69 +1,82 @@
 "use client";
 
-import { useEffect } from "react";
-import { AppsSection } from "@/components/AppsSection";
-import { HeroSection, type HeroStat, SiteHeader } from "@/components/HeroSection";
-import { SiteFooter } from "@/components/SiteFooter";
+import { useEffect, type CSSProperties } from "react";
+import { FsFooter, FsHeader } from "@/components/FoSite";
+import { getAppPageByAppId } from "@/data/app-pages";
 import { useLocale } from "@/i18n/locale-context";
-import type { PageMessages } from "@/i18n/messages";
-import { getTotals } from "@/lib/play-apps";
-
-function formatNumber(value: number, locale: string, fractionDigits = 0) {
-  return new Intl.NumberFormat(locale, {
-    maximumFractionDigits: fractionDigits,
-  }).format(value);
-}
-
-function buildHeroStats(
-  labels: PageMessages["hero"]["statsLabels"],
-  totals: ReturnType<typeof getTotals>,
-  locale: string,
-): HeroStat[] {
-  const stats: HeroStat[] = [
-    { value: formatNumber(totals.apps, locale), label: labels.apps },
-    {
-      value: `${formatNumber(totals.totalDownloads, locale)}+`,
-      label: labels.downloads,
-    },
-    {
-      value: formatNumber(totals.totalRatings, locale),
-      label: labels.ratings,
-    },
-  ];
-
-  if (totals.avgScore != null) {
-    stats.push({
-      value: formatNumber(totals.avgScore, locale, 1),
-      label: labels.score,
-    });
-  }
-
-  return stats;
-}
 
 export function HomePage() {
   const { locale, messages } = useLocale();
-  const totals = getTotals();
+  const site = messages.site;
+  const apps = messages.apps.items;
 
   useEffect(() => {
     document.title = messages.meta.title;
-
-    const descriptionTag = document.querySelector('meta[name="description"]');
-    if (descriptionTag) {
-      descriptionTag.setAttribute("content", messages.meta.description);
-    }
+    document
+      .querySelector('meta[name="description"]')
+      ?.setAttribute("content", messages.meta.description);
   }, [messages.meta.description, messages.meta.title]);
 
-  const stats = buildHeroStats(messages.hero.statsLabels, totals, locale);
+  const categories = new Set(
+    apps.map((app) => getAppPageByAppId(app.appId)?.copy[locale].category ?? app.appId),
+  ).size;
 
   return (
-    <div className="page">
-      <SiteHeader brand={messages.header.brand} />
-      <main>
-        <HeroSection hero={messages.hero} stats={stats} apps={messages.apps.items} />
-        <AppsSection apps={messages.apps} locale={locale} />
+    <div className="fs">
+      <FsHeader />
+      <main className="fs-wrap">
+        <section className="fs-hero">
+          <span className="fs-eyebrow">{site.eyebrow}</span>
+          <h1>{site.title}</h1>
+          <p>{site.subtitle}</p>
+          <div className="fs-stats">
+            <div>
+              <b>{apps.length}</b>
+              {site.appsStat}
+            </div>
+            <div>
+              <b>{categories}</b>
+              {site.categoriesStat}
+            </div>
+            <div>
+              <b>100%</b>Google Play
+            </div>
+          </div>
+        </section>
+
+        <h2 id="apps" className="fs-section-title">
+          {site.sectionTitle}
+        </h2>
+        <div className="fs-grid">
+          {apps.map((app) => {
+            const page = getAppPageByAppId(app.appId);
+            const style = { "--fs-accent": page?.accent } as CSSProperties;
+            return (
+              <a
+                key={app.appId}
+                className="fs-card"
+                href={app.slug ? `/apps/${app.slug}/` : app.href}
+                target={app.slug ? undefined : "_blank"}
+                rel={app.slug ? undefined : "noopener noreferrer"}
+                style={style}
+              >
+                <div className="fs-card-top">
+                  <img className="fs-icon" src={app.icon} alt="" width={60} height={60} />
+                  <div>
+                    {page ? <div className="fs-tag">{page.copy[locale].category}</div> : null}
+                    <h3>{app.name}</h3>
+                  </div>
+                </div>
+                <p>{app.description}</p>
+                <span className="fs-more">
+                  {app.slug ? messages.apps.detailsLabel : messages.apps.storeLabel} →
+                </span>
+              </a>
+            );
+          })}
+        </div>
       </main>
-      <SiteFooter footer={messages.footer} />
+      <FsFooter />
     </div>
   );
 }
