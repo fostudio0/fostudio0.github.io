@@ -1,7 +1,10 @@
 import type { Locale } from "@/i18n/config";
 import playAppsData from "@/data/play-apps.json";
+import { getAppPageByAppId } from "@/data/app-pages";
 
 export type AppItem = {
+  appId: string;
+  slug: string | null;
   name: string;
   description: string;
   href: string;
@@ -50,17 +53,26 @@ export function getDeveloperUrl(): string {
 }
 
 export function getLocalizedApps(locale: Locale): AppItem[] {
-  return catalog.apps.map((app) => ({
-    name: app[locale].name,
-    description: app[locale].description,
-    href: app.href,
-    icon: app.icon,
-    alt: app[locale].name,
-    score: app[locale].score,
-    scoreText: app[locale].scoreText,
-    ratings: app[locale].ratings,
-    installs: app[locale].installs,
-  }));
+  return catalog.apps.map((app) => {
+    const page = getAppPageByAppId(app.appId);
+    return {
+      appId: app.appId,
+      slug: page?.slug ?? null,
+      name: app[locale].name,
+      description: page?.copy[locale].short ?? app[locale].description,
+      href: app.href,
+      icon: app.icon,
+      alt: app[locale].name,
+      score: app[locale].score,
+      scoreText: app[locale].scoreText,
+      ratings: app[locale].ratings,
+      installs: app[locale].installs,
+    };
+  });
+}
+
+export function getLocalizedApp(appId: string, locale: Locale): AppItem | undefined {
+  return getLocalizedApps(locale).find((app) => app.appId === appId);
 }
 
 export function getAppCount(): number {

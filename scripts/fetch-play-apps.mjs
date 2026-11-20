@@ -15,6 +15,9 @@ const CURATED_ORDER = [
   "com.ferhatozcelik.ulgen",
   "com.tulparim",
   "com.ferhatozcelik.spincoater",
+  "com.ferhatozcelik.emojidefense",
+  "ferhatozcelik.trsms",
+  "com.ferhatozcelik.agropulse",
 ];
 
 function parseInstalls(value) {

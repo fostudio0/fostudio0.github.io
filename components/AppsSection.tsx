@@ -71,9 +71,9 @@ export function AppsSection({ apps, locale }: AppsSectionProps) {
           {apps.items.map((app) => (
             <a
               key={app.href}
-              href={app.href}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={app.slug ? `/apps/${app.slug}/` : app.href}
+              target={app.slug ? undefined : "_blank"}
+              rel={app.slug ? undefined : "noopener noreferrer"}
               className="app-card"
             >
               <img src={app.icon} alt={app.alt} className="app-icon" />
@@ -87,7 +87,9 @@ export function AppsSection({ apps, locale }: AppsSectionProps) {
                 />
                 <p className="app-description">{app.description}</p>
               </div>
-              <span className="app-action">{apps.storeLabel} →</span>
+              <span className="app-action">
+                {app.slug ? apps.detailsLabel : apps.storeLabel} →
+              </span>
             </a>
           ))}
         </div>

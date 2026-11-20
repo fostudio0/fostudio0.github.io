@@ -24,8 +24,20 @@ export type Messages = {
     title: string;
     subtitle: string;
     storeLabel: string;
+    detailsLabel: string;
     reviewsLabel: string;
     downloadsLabel: string;
+  };
+  appPage: {
+    backHome: string;
+    download: string;
+    featuresTitle: string;
+    screenshotsTitle: string;
+    screenshotAlt: string;
+    audienceTitle: string;
+    ctaTitle: string;
+    otherAppsTitle: string;
+    legalDocuments: string;
   };
   footer: {
     legalDocuments: string;
@@ -69,8 +81,20 @@ const messages: Record<Locale, Messages> = {
       title: "Uygulamalarımız",
       subtitle: "Google Play'de yayında olan projelerimiz.",
       storeLabel: "Google Play'de aç",
+      detailsLabel: "Uygulamayı incele",
       reviewsLabel: "değerlendirme",
       downloadsLabel: "indirme",
+    },
+    appPage: {
+      backHome: "Tüm uygulamalar",
+      download: "Google Play'den indir",
+      featuresTitle: "Neler yapabilirsiniz?",
+      screenshotsTitle: "Ekran görüntüleri",
+      screenshotAlt: "ekran görüntüsü",
+      audienceTitle: "Kimler için?",
+      ctaTitle: "şimdi Google Play'de",
+      otherAppsTitle: "Diğer uygulamalarımız",
+      legalDocuments: "Yasal Belgeler",
     },
     footer: {
       legalDocuments: "Yasal Belgeler",
@@ -106,8 +130,20 @@ const messages: Record<Locale, Messages> = {
       title: "Our apps",
       subtitle: "Projects currently live on Google Play.",
       storeLabel: "Open on Google Play",
+      detailsLabel: "View app",
       reviewsLabel: "reviews",
       downloadsLabel: "downloads",
+    },
+    appPage: {
+      backHome: "All apps",
+      download: "Get it on Google Play",
+      featuresTitle: "What you can do",
+      screenshotsTitle: "Screenshots",
+      screenshotAlt: "screenshot",
+      audienceTitle: "Who it's for",
+      ctaTitle: "is on Google Play now",
+      otherAppsTitle: "More apps",
+      legalDocuments: "Legal Documents",
     },
     footer: {
       legalDocuments: "Legal Documents",
