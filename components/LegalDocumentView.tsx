@@ -2,9 +2,8 @@
 
 import { useCallback, useEffect, useState } from "react";
 import { LegalLayout, LEGAL_CHROME } from "@/components/LegalLayout";
-import { DocumentShimmer } from "@/components/LegalShimmer";
 import { useLocale } from "@/i18n/locale-context";
-import { fetchLegalDocument, type LegalDocument } from "@/lib/legal";
+import { fetchLegalDocument, getFallbackLegalDocument, type LegalDocument } from "@/lib/legal";
 
 type LegalDocumentViewProps = {
   slug: string;
@@ -14,19 +13,20 @@ export function LegalDocumentView({ slug }: LegalDocumentViewProps) {
   const { locale } = useLocale();
   const chrome = LEGAL_CHROME[locale];
 
-  const [doc, setDoc] = useState<LegalDocument | null>(null);
+  const [doc, setDoc] = useState<LegalDocument>(() => getFallbackLegalDocument(locale, slug));
   const [failed, setFailed] = useState(false);
 
   const load = useCallback(async () => {
-    setFailed(false);
-    setDoc(null);
     try {
       const next = await fetchLegalDocument(locale, slug);
       setDoc(next);
+      setFailed(false);
     } catch {
-      setFailed(true);
+      if (!doc || !doc.html) {
+        setFailed(true);
+      }
     }
-  }, [locale, slug]);
+  }, [locale, slug, doc]);
 
   useEffect(() => {
     load();
@@ -60,13 +60,11 @@ export function LegalDocumentView({ slug }: LegalDocumentViewProps) {
             {locale === "tr" ? "Tekrar dene" : "Retry"}
           </button>
         </div>
-      ) : doc ? (
+      ) : (
         <div
           className="policy-document"
-          dangerouslySetInnerHTML={{ __html: doc.html }}
+          dangerouslySetInnerHTML={{ __html: doc?.html ?? "" }}
         />
-      ) : (
-        <DocumentShimmer />
       )}
     </LegalLayout>
   );

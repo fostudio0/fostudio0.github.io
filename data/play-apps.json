@@ -1,13 +1,35 @@
 {
-  "fetchedAt": "2026-11-20T12:19:16.808Z",
+  "fetchedAt": "2026-11-22T22:33:35.064Z",
   "developerUrl": "https://play.google.com/store/apps/dev?id=6929581014777072329",
   "totals": {
-    "apps": 8,
-    "totalDownloads": 20132,
-    "totalRatings": 505,
-    "avgScore": 3.3
+    "apps": 5,
+    "totalDownloads": 20012,
+    "totalRatings": 478,
+    "avgScore": 3.2
   },
   "apps": [
+    {
+      "appId": "com.ferhatozcelik.agropulse",
+      "href": "https://play.google.com/store/apps/details?id=com.ferhatozcelik.agropulse",
+      "icon": "https://play-lh.googleusercontent.com/ULzGIXkh8n6gR1D3UyCWecvu9xTFP_p98KzF3-Ll-40YpKAMKuaLpXWkzodQcA0T738KU73-075v69hACOSbq2g",
+      "alt": "AgroPulse: Smart Farm Tracker",
+      "en": {
+        "name": "AgroPulse: Smart Farm Tracker",
+        "description": "AgroPulse turns satellite data into simple, practical advice for your fields. Mark your field on the map and AgroPulse does the rest: • Pla…",
+        "score": null,
+        "scoreText": null,
+        "ratings": null,
+        "installs": "1+"
+      },
+      "tr": {
+        "name": "AgroPulse: Akıllı Tarla Takibi",
+        "description": "AgroPulse, uydu verilerini tarlanız için sade ve uygulanabilir tavsiyelere dönüştürür. Tarlanızı haritada işaretleyin, gerisini AgroPulse h…",
+        "score": null,
+        "scoreText": null,
+        "ratings": null,
+        "installs": "1+"
+      }
+    },
     {
       "appId": "com.ferhatozcelik.mycodes",
       "href": "https://play.google.com/store/apps/details?id=com.ferhatozcelik.mycodes",
@@ -90,94 +112,6 @@
       "tr": {
         "name": "Tulparım",
         "description": "Tulparım, aracınızın bakım geçmişini tek bir QR kodda toplayan dijital servis defteridir. Bireysel sürücüler için: • Tüm bakım kayıtlarını…",
-        "score": null,
-        "scoreText": null,
-        "ratings": null,
-        "installs": "1+"
-      }
-    },
-    {
-      "appId": "com.ferhatozcelik.spincoater",
-      "href": "https://play.google.com/store/apps/details?id=com.ferhatozcelik.spincoater",
-      "icon": "https://play-lh.googleusercontent.com/97oNK7T8OxdFQ98gA8I_FOwVsXSNH245YNDtPwfXm0qeh3zGNuln8ePemzIJi4H02f9SbQngzWfyfe9ly4XrC6s",
-      "alt": "StellNex",
-      "en": {
-        "name": "StellNex",
-        "description": "StellNex is a technology company specializing in high-performance research devices in the field of thin films. It stands out as a significa…",
-        "score": null,
-        "scoreText": null,
-        "ratings": null,
-        "installs": "10+"
-      },
-      "tr": {
-        "name": "StellNex",
-        "description": "StellNex, ince film teknolojileri alanında yüksek performanslı araştırma cihazları konusunda uzmanlaşmış bir teknoloji şirketidir. OLED'ler…",
-        "score": null,
-        "scoreText": null,
-        "ratings": null,
-        "installs": "10+"
-      }
-    },
-    {
-      "appId": "com.ferhatozcelik.emojidefense",
-      "href": "https://play.google.com/store/apps/details?id=com.ferhatozcelik.emojidefense",
-      "icon": "https://play-lh.googleusercontent.com/Eg8Z12HE6sq4WSpL11PJdZHe2AQPxBMTw5ReIYLyRGO242k9XP1b-EmwTVVun9_SZ5w5lQHtxvPk4ljqSv0nlQ",
-      "alt": "Emoji Arcade",
-      "en": {
-        "name": "Emoji Arcade",
-        "description": "**Emoji Defense – Fun Mini Games** Welcome to Emoji Defense, a fun collection of mini-games packed with colorful emojis, exciting challenge…",
-        "score": null,
-        "scoreText": null,
-        "ratings": null,
-        "installs": "10+"
-      },
-      "tr": {
-        "name": "Emoji Arcade",
-        "description": "**Emoji Defense – Eğlence Dolu Mini Oyunlar** Emoji Defense ile renkli emojiler, eğlenceli bulmacalar ve heyecan verici mücadelelerle dolu…",
-        "score": 5,
-        "scoreText": "5,0",
-        "ratings": 7,
-        "installs": "10+"
-      }
-    },
-    {
-      "appId": "ferhatozcelik.trsms",
-      "href": "https://play.google.com/store/apps/details?id=ferhatozcelik.trsms",
-      "icon": "https://play-lh.googleusercontent.com/DFzLDasPGPT5COX2k0473oj_FhrcnwJfrCbhXDje-q-rF-mtwXsDqX1JdYLMgqgQzeH_RLhA-spyy4dL3wjcsQ",
-      "alt": "Konya Macerası",
-      "en": {
-        "name": "Konya Macerası",
-        "description": "Bu uygulama SMS gönderiminde kısaltmaları yasaklıyor ve türk dilini bozulmasın engelliyor. Hayatımızda alışkanlık Haline gelen bu kısaltma…",
-        "score": null,
-        "scoreText": null,
-        "ratings": null,
-        "installs": "100+"
-      },
-      "tr": {
-        "name": "Konya Macerası",
-        "description": "Bu uygulama SMS gönderiminde kısaltmaları yasaklıyor ve türk dilini bozulmasın engelliyor. Hayatımızda alışkanlık Haline gelen bu kısaltma…",
-        "score": 4.8,
-        "scoreText": "4,8",
-        "ratings": 20,
-        "installs": "100+"
-      }
-    },
-    {
-      "appId": "com.ferhatozcelik.agropulse",
-      "href": "https://play.google.com/store/apps/details?id=com.ferhatozcelik.agropulse",
-      "icon": "https://play-lh.googleusercontent.com/ULzGIXkh8n6gR1D3UyCWecvu9xTFP_p98KzF3-Ll-40YpKAMKuaLpXWkzodQcA0T738KU73-075v69hACOSbq2g",
-      "alt": "AgroPulse: Smart Farm Tracker",
-      "en": {
-        "name": "AgroPulse: Smart Farm Tracker",
-        "description": "AgroPulse turns satellite data into simple, practical advice for your fields. Mark your field on the map and AgroPulse does the rest: • Pla…",
-        "score": null,
-        "scoreText": null,
-        "ratings": null,
-        "installs": "1+"
-      },
-      "tr": {
-        "name": "AgroPulse: Akıllı Tarla Takibi",
-        "description": "AgroPulse, uydu verilerini tarlanız için sade ve uygulanabilir tavsiyelere dönüştürür. Tarlanızı haritada işaretleyin, gerisini AgroPulse h…",
         "score": null,
         "scoreText": null,
         "ratings": null,

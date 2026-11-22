@@ -1,0 +1,424 @@
+{
+  "indexes": {
+    "tr": {
+      "package_name": "fostudio0.github.io",
+      "lang": "tr",
+      "app_name": "Application",
+      "documents": [
+        {
+          "slug": "privacy",
+          "type": "PRIVACY_POLICY",
+          "title": "Gizlilik Politikası",
+          "url": "http://jcqkznspriizdmsbjvvj.supabase.co/functions/v1/legal/fostudio0.github.io/privacy?lang=tr"
+        },
+        {
+          "slug": "terms",
+          "type": "TERMS_OF_SERVICE",
+          "title": "Kullanım Koşulları",
+          "url": "http://jcqkznspriizdmsbjvvj.supabase.co/functions/v1/legal/fostudio0.github.io/terms?lang=tr"
+        },
+        {
+          "slug": "account-deletion",
+          "type": "ACCOUNT_DELETION",
+          "title": "Hesap silme",
+          "url": "http://jcqkznspriizdmsbjvvj.supabase.co/functions/v1/legal/fostudio0.github.io/account-deletion?lang=tr"
+        },
+        {
+          "slug": "cookies",
+          "type": "COOKIE_POLICY",
+          "title": "Çerez Politikası",
+          "url": "http://jcqkznspriizdmsbjvvj.supabase.co/functions/v1/legal/fostudio0.github.io/cookies?lang=tr"
+        },
+        {
+          "slug": "membership",
+          "type": "MEMBERSHIP_CLARIFICATION",
+          "title": "Üyelik Aydınlatma Metni",
+          "url": "http://jcqkznspriizdmsbjvvj.supabase.co/functions/v1/legal/fostudio0.github.io/membership?lang=tr"
+        },
+        {
+          "slug": "visitor",
+          "type": "WEBSITE_VISITOR_CLARIFICATION",
+          "title": "Ziyaretçi Aydınlatma Metni",
+          "url": "http://jcqkznspriizdmsbjvvj.supabase.co/functions/v1/legal/fostudio0.github.io/visitor?lang=tr"
+        },
+        {
+          "slug": "commercial",
+          "type": "COMMERCIAL_ELECTRONIC_MESSAGE_CLARIFICATION",
+          "title": "Ticari İleti Aydınlatma Metni",
+          "url": "http://jcqkznspriizdmsbjvvj.supabase.co/functions/v1/legal/fostudio0.github.io/commercial?lang=tr"
+        },
+        {
+          "slug": "application",
+          "type": "DATA_SUBJECT_APPLICATION_FORM",
+          "title": "İlgili Kişi Başvuru Formu",
+          "url": "http://jcqkznspriizdmsbjvvj.supabase.co/functions/v1/legal/fostudio0.github.io/application?lang=tr"
+        }
+      ],
+      "config": {
+        "controller_name": "Ferit ÖZÇELİK",
+        "email": "feritozcelik042@gmail.com",
+        "phone": "+90 553 150 1268",
+        "address": "Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya",
+        "website": "https://fostudio0.github.io/",
+        "app_name": "Application"
+      }
+    },
+    "en": {
+      "package_name": "fostudio0.github.io",
+      "lang": "en",
+      "app_name": "Application",
+      "documents": [
+        {
+          "slug": "privacy",
+          "type": "PRIVACY_POLICY",
+          "title": "Privacy Policy",
+          "url": "http://jcqkznspriizdmsbjvvj.supabase.co/functions/v1/legal/fostudio0.github.io/privacy?lang=en"
+        },
+        {
+          "slug": "terms",
+          "type": "TERMS_OF_SERVICE",
+          "title": "Terms of Use",
+          "url": "http://jcqkznspriizdmsbjvvj.supabase.co/functions/v1/legal/fostudio0.github.io/terms?lang=en"
+        },
+        {
+          "slug": "account-deletion",
+          "type": "ACCOUNT_DELETION",
+          "title": "Account deletion",
+          "url": "http://jcqkznspriizdmsbjvvj.supabase.co/functions/v1/legal/fostudio0.github.io/account-deletion?lang=en"
+        },
+        {
+          "slug": "cookies",
+          "type": "COOKIE_POLICY",
+          "title": "Cookie Policy",
+          "url": "http://jcqkznspriizdmsbjvvj.supabase.co/functions/v1/legal/fostudio0.github.io/cookies?lang=en"
+        },
+        {
+          "slug": "membership",
+          "type": "MEMBERSHIP_CLARIFICATION",
+          "title": "Membership Notice",
+          "url": "http://jcqkznspriizdmsbjvvj.supabase.co/functions/v1/legal/fostudio0.github.io/membership?lang=en"
+        },
+        {
+          "slug": "visitor",
+          "type": "WEBSITE_VISITOR_CLARIFICATION",
+          "title": "Visitor Notice",
+          "url": "http://jcqkznspriizdmsbjvvj.supabase.co/functions/v1/legal/fostudio0.github.io/visitor?lang=en"
+        },
+        {
+          "slug": "commercial",
+          "type": "COMMERCIAL_ELECTRONIC_MESSAGE_CLARIFICATION",
+          "title": "Commercial Message Notice",
+          "url": "http://jcqkznspriizdmsbjvvj.supabase.co/functions/v1/legal/fostudio0.github.io/commercial?lang=en"
+        },
+        {
+          "slug": "application",
+          "type": "DATA_SUBJECT_APPLICATION_FORM",
+          "title": "Data Subject Application Form",
+          "url": "http://jcqkznspriizdmsbjvvj.supabase.co/functions/v1/legal/fostudio0.github.io/application?lang=en"
+        }
+      ],
+      "config": {
+        "controller_name": "Ferit ÖZÇELİK",
+        "email": "feritozcelik042@gmail.com",
+        "phone": "+90 553 150 1268",
+        "address": "Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya",
+        "website": "https://fostudio0.github.io/",
+        "app_name": "Application"
+      }
+    }
+  },
+  "docs": {
+    "tr": {
+      "privacy": {
+        "slug": "privacy",
+        "type": "PRIVACY_POLICY",
+        "lang": "tr",
+        "title": "Gizlilik Politikası",
+        "html": "<p>Bu Gizlilik Politikası, <strong>Ferit ÖZÇELİK</strong> (“Geliştirici”) tarafından geliştirilen <strong>{{app_name}}</strong> mobil uygulamasının kullanımında kişisel verilerinizin nasıl işlendiğini açıklar.</p>\n\n<p>Geliştirici, 6698 sayılı Kişisel Verilerin Korunması Kanunu (“KVKK”) kapsamında veri sorumlusudur.</p>\n\n<ul>\n<li>E-posta: feritozcelik042@gmail.com</li>\n<li>Adres: Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya</li>\n</ul>\n\n<h2>1. Uygulamanın Niteliği</h2>\n\n<p>{{app_name}}, bir hedef ve alışkanlık takip uygulamasıdır. Tüm kullanıcı verileri yalnızca kullanıcının kendi cihazında saklanır; geliştirici tarafından herhangi bir sunucuya aktarılmaz veya uzaktan erişilemez.</p>\n\n<h2>2. Toplanan Kişisel Veriler</h2>\n\n<h3>2.1. Kimlik Doğrulama (Yalnızca İsteğe Bağlı)</h3>\n\n<p>Google ile giriş seçeneği kullanılması halinde, Google Hesabınızdan yalnızca aşağıdaki bilgiler alınır:</p>\n\n<ul>\n<li><strong>Ad ve soyad</strong></li>\n<li><strong>E-posta adresi</strong></li>\n</ul>\n\n<p>Bu bilgiler yalnızca cihazınızda yerel olarak saklanır. Geliştiriciye veya herhangi bir sunucuya iletilmez. Google profil fotoğrafı alınmaz veya saklanmaz.</p>\n\n<h3>2.2. Uygulama İçeriği (Yerel Depolama)</h3>\n\n<ul>\n<li><strong>Hedef ve alışkanlık verileri:</strong> hedef başlıkları, tamamlama/atlama/başarısız olma kayıtları, seriler, hatırlatıcı ayarları</li>\n<li><strong>Kullanıcı tercihleri:</strong> tema, haftanın başlangıç günü, bildirim saatleri, ses efekti ayarları, renk tercihleri</li>\n<li><strong>Widget istatistikleri:</strong> toplam hedef, tamamlanan hedef, en uzun seri (yalnızca cihaz widget’ında görüntülenir)</li>\n</ul>\n\n<p>Bu veriler SQLDelight yerel veritabanında ve SharedPreferences’te saklanır; cihazınızdan çıkmaz.</p>\n\n<h3>2.3. Bildirimler (Yerel)</h3>\n\n<p>Uygulama, yalnızca cihazınızda yerel hatırlatıcı bildirimleri gönderir. Uzaktan bildirim (push notification) kullanılmaz. Bildirim ayarları cihazınızda saklanır.</p>\n\n<h2>3. Toplanmayan Veriler</h2>\n\n<p>Uygulama aşağıdaki verileri <strong>kesinlikle toplamaz:</strong></p>\n\n<ul>\n<li>Konum verisi</li>\n<li>Kamera veya mikrofon kaydı</li>\n<li>Rehber veya kişiler</li>\n<li>Dosya, fotoğraf veya medya erişimi</li>\n<li>Cihaz tanımlayıcısı (IMEI, Android ID, reklam kimliği)</li>\n<li>IP adresi</li>\n<li>Çevrimiçi davranış verileri veya profilleme</li>\n<li>Analitik veya çökme raporlama verileri</li>\n</ul>\n\n<h2>4. İşleme Amaçları ve Hukuki Sebepler</h2>\n\n<table>\n<tr><th>Amaç</th><th>Hukuki Sebep</th></tr>\n<tr><td>Google ile kimlik doğrulama (isteğe bağlı)</td><td>Açık rıza (KVKK m. 5/2)</td></tr>\n<tr><td>Hedef ve alışkanlık verilerinin cihazda saklanması</td><td>Sözleşmenin ifası (KVKK m. 5/2/c) — hizmetin sunulması</td></tr>\n<tr><td>Yerel hatırlatıcı bildirimlerin gönderilmesi</td><td>Açık rıza (KVKK m. 5/2)</td></tr>\n<tr><td>Uygulama içi tercihlerin saklanması</td><td>Meşru menfaat (KVKK m. 5/2/f) — kullanıcı deneyiminin iyileştirilmesi</td></tr>\n</table>\n\n<h2>5. Üçüncü Taraflarla Paylaşım</h2>\n\n<p>Kişisel verileriniz hiçbir üçüncü tarafla paylaşılmaz.</p>\n\n<p>Uygulama Google Kimlik Doğrulama hizmetini kullanır; bu hizmetin kendi gizlilik politikası Google LLC tarafından düzenlenir:</p>\n<ul>\n<li><a href=\"https://policies.google.com/privacy\">Google Gizlilik Politikası</a></li>\n</ul>\n\n<h2>6. Yurt Dışına Aktarım</h2>\n\n<p>Kişisel verileriniz yurt dışında işlenmez veya saklanmaz. Tüm veriler yalnızca kullanıcının kendi cihazında yerel olarak depolanır.</p>\n\n<h2>7. Veri Saklama Süresi</h2>\n\n<p>Yerel veriler, kullanıcı tarafından uygulama kaldırılana veya hesap silinene kadar cihazda saklanır. Geliştirici tarafından herhangi bir veri saklanmaz veya yedeklenmez.</p>\n\n<h2>8. Haklarınız (KVKK m. 11)</h2>\n\n<p>KVKK uyarınca aşağıdaki haklara sahipsiniz:</p>\n\n<ul>\n<li>Kişisel verilerinizin işlenip işlenmediğini öğrenme</li>\n<li>İşlenen kişisel verileriniz hakkında bilgi talep etme</li>\n<li>İşlenme amacını öğrenme ve bu amaca uygun kullanılıp kullanılmadığını öğrenme</li>\n<li>Yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme</li>\n<li>Verilerin eksik veya yanlış işlenmesi halinde düzeltilmesini isteme</li>\n<li>KVKK’nın 7. maddesinde öngörülen şartlar çerçevesinde silinmesini veya yok edilmesini isteme</li>\n<li>Yukarıdaki bentler uyarınca yapılan işlemlerin, verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme</li>\n<li>İşlenen verilerin münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle lehinize bir sonucun ortaya çıkmasına itiraz etme</li>\n<li>Kanuna aykırı olarak işlenmesi sebebiyle zarara uğramanız halinde zararın giderilmesini talep etme</li>\n</ul>\n\n<h2>9. Başvuru</h2>\n\n<p>Haklarınızı kullanmak için feritozcelik042@gmail.com adresine e-posta gönderebilirsiniz. Başvurularınız KVKK’da öngörülen süreler içinde sonuçlandırılır.</p>\n\n<p>Cevabın yetersiz bulunması veya süresinde yanıt verilmemesi halinde Kişisel Verileri Koruma Kurulu’na şikâyet hakkınız saklıdır.</p>\n\n<h2>10. Çocukların Korunması</h2>\n\n<p>Uygulama 13 yaşın altındaki çocuklara yönelik değildir. Reşit olmayanlardan bilerek kişisel veri toplanmaz.</p>\n\n<h2>11. Politika Değişiklikleri</h2>\n\n<p>Bu politika, mevzuat veya uygulama değişikliklerine bağlı olarak güncellenebilir. Güncel metin uygulama içinde yayımlandığı tarihte yürürlüğe girer.</p>\n\n<h2>12. İletişim</h2>\n\n<p>Ferit ÖZÇELİK</p>\n<ul>\n<li>E-posta: feritozcelik042@gmail.com</li>\n<li>Adres: Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya</li>\n</ul>",
+        "content_type": "text/html",
+        "updated_at": "2026-09-10T17:54:43.086653+00:00",
+        "package_name": "fostudio0.github.io",
+        "config": {
+          "controller_name": "Ferit ÖZÇELİK",
+          "email": "feritozcelik042@gmail.com",
+          "phone": "+90 553 150 1268",
+          "address": "Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya",
+          "website": "https://fostudio0.github.io/",
+          "app_name": "Application"
+        }
+      },
+      "terms": {
+        "slug": "terms",
+        "type": "TERMS_OF_SERVICE",
+        "lang": "tr",
+        "title": "Kullanım Koşulları",
+        "html": "<p>Bu Kullanım Koşulları (“Koşullar”), <strong>Ferit ÖZÇELİK</strong> (“Şirket”) tarafından Google Play ve App Store üzerinden sunulan <strong>{{app_name}}</strong> mobil uygulaması ile ilişkili bulut özelliklerinin (birlikte “Hizmet”) kullanımını düzenler.</p>\n<p>Hizmeti indirerek, hesap oluşturarak veya kullanarak bu Koşulları kabul etmiş olursunuz. Kabul etmiyorsanız Hizmeti kullanmayınız.</p>\n<h2>1. Hizmet</h2>\n<p>{{app_name}}, QR kodu oluşturmanıza, taramanıza, saklamanıza ve isteğe bağlı olarak eşlemenize imkân verir. Bazı özellikler Google hesabı, cihaz izinleri (kamera, fotoğraflar, bildirimler) veya internet bağlantısı gerektirir. Bir platformda bulunmayan özellikler uygulamada gizlenir.</p>\n<h2>2. Hesap</h2>\n<p>Google ile oturum açabilirsiniz. Hesabınızdaki işlemlerden siz sorumlusunuz. Hesabınızı uygulama içindeki Profil’den veya feritozcelik042@gmail.com adresine yazarak silebilirsiniz. Hesap silmek mağaza aboneliğini iptal etmez.</p>\n<h2>3. Abonelik ve uygulama içi satın alma</h2>\n<p>İsteğe bağlı otomatik yenilenen abonelikler (“{{app_name}} Premium”) Google Play ve App Store üzerinden satılır:</p>\n<ul>\n<li>Haftalık Premium</li>\n<li>Aylık Premium</li>\n<li>Yıllık Premium</li>\n</ul>\n<p>Ücret, satın alma anında uygulamada ve mağazada gösterilen, yerel para birimindeki tutardır. Ödeme, satın almayı onayladığınızda Google hesabınıza veya Apple kimliğinize yansıtılır. Şirket kart numaranızı almaz ve saklamaz.</p>\n<p>Abonelik, mevcut dönemin bitiminden en az 24 saat önce iptal edilmedikçe otomatik yenilenir. Yenileme bedeli, dönemin bitiminden önceki 24 saat içinde, o andaki geçerli fiyat üzerinden hesabınıza yansıtılır. Satın alma sonrası aboneliği mağaza hesap ayarlarından yönetebilir veya iptal edebilirsiniz:</p>\n<ul>\n<li>Google Play: Google Play → Ödemeler ve abonelikler → Abonelikler</li>\n<li>App Store: Ayarlar → Apple kimliği → Abonelikler</li>\n</ul>\n<p>İptal, bir sonraki yenilemeyi durdurur; erişim ödenmiş dönemin sonuna kadar sürer. İadeler, tüketicinin zorunlu hakları saklı kalmak üzere Google veya Apple mağaza kurallarına tabidir.</p>\n<h2>4. Bulut özellikleri ve sınırlar</h2>\n<p>Ücretsiz hesaplarda bulut eşitleme ve dinamik QR sınırlı olabilir. Premium bu sınırları uygulamada gösterildiği şekilde artırır. Abonelik bittikten sonra kısa bir ek süre uygulanabilir; bu sürenin ardından bulut QR verileri Gizlilik Politikası’nda açıklandığı gibi kaldırılabilir.</p>\n<h2>5. Kabul edilebilir kullanım</h2>\n<p>Hizmeti yasa dışı, zararlı veya aldatıcı QR içeriği oluşturmak veya yaymak, Hizmete saldırmak ya da başkalarının haklarını ihlal etmek için kullanamazsınız. Şirket kötüye kullanım halinde erişimi askıya alabilir.</p>\n<h2>6. Fikri mülkiyet</h2>\n<p>Uygulama, markalar ve Şirket içerikleri Şirket’e aittir. Oluşturduğunuz QR içeriği size aittir. Bulut eşitlemeyi açtığınızda bu içeriğin barındırılması için Şirket’e sınırlı bir lisans vermiş olursunuz.</p>\n<h2>7. Reklamlar</h2>\n<p>Ücretsiz kullanıcılar reklam görebilir. Premium reklamları kaldırır. Reklamlar, kendi politikalarına tabi üçüncü taraf ağlar tarafından sunulur.</p>\n<h2>8. Sorumluluk</h2>\n<p>Hizmet “olduğu gibi” sunulur. Kanunların izin verdiği ölçüde Şirket, dolaylı zararlardan veya oluşturduğunuz ya da taradığınız QR içeriğinden sorumlu değildir. Bu Koşullar, uygulanabilir hukukta sınırlanamayan sorumluluğu, ülkenizdeki zorunlu tüketici hakları dahil, sınırlamaz.</p>\n<h2>9. Gizlilik</h2>\n<p>Kişisel veriler Gizlilik Politikası’nda açıklandığı şekilde işlenir. Güncel politika bu Koşullarla birlikte yayımlanır ve Google Play ile App Store sayfalarında listelenir.</p>\n<h2>10. Değişiklik ve iletişim</h2>\n<p>Şirket bu Koşulları güncelleyebilir. Güncel metin yayımlandığı tarihten itibaren geçerlidir. İletişim: feritozcelik042@gmail.com · +90 553 150 1268 · Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya</p>",
+        "content_type": "text/html",
+        "updated_at": "2026-08-30T20:47:47.339976+00:00",
+        "package_name": "fostudio0.github.io",
+        "config": {
+          "controller_name": "Ferit ÖZÇELİK",
+          "email": "feritozcelik042@gmail.com",
+          "phone": "+90 553 150 1268",
+          "address": "Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya",
+          "website": "https://fostudio0.github.io/",
+          "app_name": "Application"
+        }
+      },
+      "account-deletion": {
+        "slug": "account-deletion",
+        "type": "ACCOUNT_DELETION",
+        "lang": "tr",
+        "title": "Hesap silme",
+        "html": "<h2>Hesap silme</h2>\n<p>Bu sayfa <strong>{{app_name}}</strong> hesabınızı nasıl sileceğinizi açıklar. Google Play ve App Store, mağaza sayfasından bağımsız olarak kullanılabilir açık bir hesap silme yolu bekler.</p>\n<h3>Uygulama içinden</h3>\n<ol>\n<li>Profil’i açın</li>\n<li>Oturum açık değilse Google ile giriş yapın</li>\n<li>Hesabı sil’e dokunun</li>\n<li>Bir neden seçip onaylayın</li>\n</ol>\n<h3>E-posta ile</h3>\n<p>Hesabınıza bağlı adresten feritozcelik042@gmail.com adresine yazın. Kimlik doğrulamasından sonra talep KVKK’da öngörülen süreler içinde sonuçlandırılır.</p>\n<h3>Neler silinir</h3>\n<ul>\n<li>{{app_name}} için buluta eşitlenen QR kodları ve ilgili bulut verileri</li>\n<li>Bu uygulamanın oturumu ile cihaz / bildirim kayıtları</li>\n<li>Bu uygulamaya ait kullanım sayaçları</li>\n<li>Kanuni saklama zorunluluğu saklı kalmak üzere Hizmette kullanılan profil alanları</li>\n</ul>\n<h3>Otomatik iptal edilmeyenler</h3>\n<p>Google Play veya App Store aboneliği mağazadan iptal edilmelidir. Aboneliği iptal etmeden hesabı silerseniz mağaza tahsilata devam edebilir.</p>\n<ul>\n<li>Google Play: Google Play → Ödemeler ve abonelikler → Abonelikler</li>\n<li>App Store: Ayarlar → Apple kimliği → Abonelikler</li>\n</ul>\n<h3>İletişim</h3>\n<p>feritozcelik042@gmail.com · +90 553 150 1268 · Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya</p>",
+        "content_type": "text/html",
+        "updated_at": "2026-08-30T20:47:47.339976+00:00",
+        "package_name": "fostudio0.github.io",
+        "config": {
+          "controller_name": "Ferit ÖZÇELİK",
+          "email": "feritozcelik042@gmail.com",
+          "phone": "+90 553 150 1268",
+          "address": "Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya",
+          "website": "https://fostudio0.github.io/",
+          "app_name": "Application"
+        }
+      },
+      "cookies": {
+        "slug": "cookies",
+        "type": "COOKIE_POLICY",
+        "lang": "tr",
+        "title": "Çerez Politikası",
+        "html": "<p><strong>Ferit ÖZÇELİK</strong> (“Ferit ÖZÇELİK” veya “Şirket”) olarak SaaS internet sitesinde ve Google Play / App Store üzerinden sunulan mobil uygulamada (“Hizmet”) çerez, SDK ve benzeri teknolojiler kullanabiliriz. Bu politikanın amacı, hangi tür çerez ve benzeri teknolojileri ne amaçla kullandığımızı, bunları nasıl yönettiğinizi ve tercihlerinizi nasıl değiştirebileceğinizi açıklamaktır.</p><h2>Çerez nedir?</h2><p>Çerezler, ziyaret ettiğiniz internet siteleri tarafından tarayıcılar aracılığıyla cihazınıza kaydedilen, genelde harf ve rakamlardan oluşan metin dosyalarıdır. Çerezler tek başına ad, soyad veya adres gibi kimlik bilgisi içermez. Tarayıcınız ile sunucu arasında bağlantı kurulduğunda Hizmet sizi tanıyabilir ve içeriği buna göre sunabilir.</p><h2>Çerezlerin kullanım amaçları</h2><ul><li>Hizmetin işlevselliğini ve performansını artırmak</li><li>Hizmetin nasıl kullanıldığına dair istatistiksel veri toplamak ve içeriği geliştirmek</li><li>Görüntülenen içerik, ziyaret süresi ve benzeri kullanım bilgilerini hatırlamak</li><li>Sizin ve Şirket’in hukuki ve ticari güvenliğini sağlamak</li></ul><h2>Çerez türleri</h2><h3>Kullanım amaçlarına göre</h3><ul><li><strong>Zorunlu çerezler:</strong> Hizmetin amaçlandığı gibi çalışması için gereklidir. Pazarlama amacıyla kullanılmaz. Engellenmesi halinde bazı bölümler çalışmayabilir.</li><li><strong>İşlevsel çerezler:</strong> Tercihlerinizin hatırlanmasını ve içeriğin kişiselleştirilmesini sağlar. İstediğiniz zaman kapatabilirsiniz.</li><li><strong>Performans çerezleri:</strong> Kullanımın istatistiksel ölçümüne imkân verir; Hizmetin geliştirilmesine yardımcı olur.</li><li><strong>Pazarlama çerezleri:</strong> İlgi alanlarınıza uygun içerik sunmak amacıyla kullanılabilir. Kullanımı engellenebilir.</li></ul><h3>Saklama sürelerine göre</h3><ul><li><strong>Oturum çerezleri:</strong> Tarayıcı kapatıldığında cihazda tutulmaz.</li><li><strong>Kalıcı çerezler:</strong> Belirli bir süre sonra kendiliğinden silinir veya siz silene kadar saklanır.</li></ul><h3>Kaynaklarına göre</h3><ul><li><strong>Birinci taraf çerezler:</strong> Ziyaret edilen Hizmet tarafından oluşturulur.</li><li><strong>Üçüncü taraf çerezler:</strong> Hizmete eklenen eklentiler nedeniyle iş ortakları veya hizmet sağlayıcılar tarafından oluşturulabilir.</li></ul><h2>Çerez yönetimi</h2><p>Tarayıcılar genellikle çerezleri otomatik kabul eder. Tarayıcı ayarlarından çerezleri engelleyebilir, silme veya uyarı alma tercihini seçebilirsiniz. Tercihler her cihaz ve tarayıcı için ayrı yapılmalıdır.</p><p>Çerezleri tarayıcınızın gizlilik veya site ayarları bölümünden yönetebilirsiniz. Mobil uygulamada ölçüm, çökme kaydı veya bildirim SDK’ları kullanılıyorsa bunları uygulama içi ayarlardan, cihaz izinlerinden veya Google Play / App Store gizlilik ayarlarından sınırlayabilirsiniz.</p><p>Çerezleri engellemeniz halinde Hizmetin bazı işlevlerine erişemeyebilir veya erişiminiz sınırlı olabilir.</p><p>Genel bilgi ve tercih yönetimi için allaboutcookies.org veya youronlinechoices.eu adreslerini ziyaret edebilirsiniz.</p><h2>Kullanılan çerezler</h2><p>Hizmette zorunlu, işlevsel ve (açık rıza varsa) performans veya pazarlama çerezleri kullanılabilir. Kullanılan çerezlerin amacı, kategorisi ve saklama süresi Hizmet üzerindeki çerez bildiriminden görülebilir.</p><h2>Çerez benzeri teknolojiler</h2><p>Hizmetin kullanımını anlamak ve performansı ölçmek amacıyla analitik veya ölçüm araçları kullanılabilir. Bu araçlar sayfa görüntüleme, oturum süresi, yaklaşık konum (ülke / şehir) ve cihaz / tarayıcı türü gibi istatistiksel bilgiler üretebilir. Veriler mümkün olduğunca kimliksiz veya takma adlı işlenir.</p><h2>Sosyal medya eklentileri</h2><p>Hizmette sosyal medya eklentileri bulunması halinde, ilgili düğmeye tıklamanız durumunda bazı bilgileriniz ilgili sağlayıcıyla paylaşılabilir. Ziyaretinizin hesabınızla ilişkilendirilmesini istemiyorsanız, Hizmeti kullanmadan önce ilgili hesaptan çıkış yapmanız önerilir.</p>",
+        "content_type": "text/html",
+        "updated_at": "2026-08-30T20:50:42.99145+00:00",
+        "package_name": "fostudio0.github.io",
+        "config": {
+          "controller_name": "Ferit ÖZÇELİK",
+          "email": "feritozcelik042@gmail.com",
+          "phone": "+90 553 150 1268",
+          "address": "Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya",
+          "website": "https://fostudio0.github.io/",
+          "app_name": "Application"
+        }
+      },
+      "membership": {
+        "slug": "membership",
+        "type": "MEMBERSHIP_CLARIFICATION",
+        "lang": "tr",
+        "title": "Üyelik Aydınlatma Metni",
+        "html": "<h2>Üyelik ve SaaS Kullanımı Kapsamında Kişisel Verilerin İşlenmesine İlişkin Aydınlatma Metni</h2><p>Değerli üye / üye adayımız;</p><p>Kişisel verileriniz, 6698 sayılı Kişisel Verilerin Korunması Kanunu uyarınca veri sorumlusu olarak <strong>Ferit ÖZÇELİK</strong> (“Ferit ÖZÇELİK” veya “Şirket”) tarafından aşağıda açıklanan şekilde işlenebilecektir.</p><p>Bu metin; internet üzerinden sunulan yazılım hizmeti (SaaS) ile Google Play ve App Store’daki mobil uygulama üyeliği için geçerlidir.</p><h3>Kişisel verileri toplama yöntemleri ve hukuki sebepleri</h3><p>Şirket, kişisel verilerinizi üyelik oluştururken tarafınızca sağlanan bilgilerden, hesabınızı güncellediğiniz kayıtlardan, abonelik ve uygulama içi satın alma işlemlerinden elektronik ortamda elde eder.</p><p>Kişisel verileriniz; üyelik ve SaaS kullanım sözleşmesinin kurulması ve ifası, kanunlarda açıkça öngörülme, hukuki yükümlülüklerin yerine getirilmesi, meşru menfaat, bir hakkın tesisi, kullanılması veya korunması ve açık rıza (ticari elektronik ileti ve hizmetlerin kişiselleştirilmesi gibi hallerde) hukuki sebeplerine dayanılarak işlenir.</p><p>Üyelik bilgilerinizin eksik veya hatalı olduğunu fark etmeniz halinde hesap ayarlarından düzeltme yapabilir veya feritozcelik042@gmail.com üzerinden iletişime geçebilirsiniz.</p><p>Üyelik işleminin tamamlanmasından sonra bu aydınlatma metni ve kullanım koşulları, beyan ettiğiniz e-posta adresine gönderilebilir ve/veya Hizmet üzerinde erişiminize sunulabilir.</p><p>Ferit ÖZÇELİK, kullanıcı ve üyelerin bilgi güvenliği için gerekli teknik ve idari tedbirleri almaya özen gösterir. Web üzerinden yapılan ödemeler güvenli üçüncü taraf ödeme sağlayıcıları aracılığıyla yürütülür. Google Play veya App Store üzerinden yapılan abonelik ve uygulama içi satın almalarda ödeme, ilgili mağaza altyapısı üzerinden tahsil edilir. Kart bilgileri Şirket sistemlerinde saklanmaz ve Şirket tarafından görüntülenmez.</p><p>Kişisel verilerin işlenmesi, korunması, saklanması ve imhasına ilişkin esaslar Aydınlatma Metni, Gizlilik Politikası ve ilgili mevzuata tabidir.</p><h3>Kişisel verileri işleme amaçları</h3><p>Kişisel verileriniz; müşteri ve üyelik kayıtlarının oluşturulması, SaaS hesabının yönetilmesi, abonelik ve faturalama, hizmetin kullanımının kolaylaştırılması, talep ve şikâyetlerin takibi, iş sürekliliği, pazarlama ve analiz çalışmaları, izin veren kişilere kampanya bilgilendirmesi, bilgi güvenliği süreçlerinin planlanması, yetkili kişi / kurum ve kuruluşlara bilgi verilmesi ve bilişim altyapısının yönetilmesi amaçlarıyla işlenir.</p><h3>Kişisel verilerin aktarılması</h3><p>Kişisel verileriniz, “bilme gereği” ve “kullanma gereği” ilkelerine uygun olarak; bulut / barındırma sağlayıcıları, ödeme kuruluşları, Google Play ve App Store, iş ortakları, hizmet sağlayıcılar, uzmanlar, hukuk büroları, denetim firmaları, kanunen yetkili kamu kurumları ve özel kişi veya kuruluşlar ile; hukuki uyuşmazlıkların giderilmesi veya mevzuat gereği talep halinde idari ve adli makamlarla; yurt içinde veya KVKK’nın öngördüğü şartlarla yurt dışında aktarılabilir.</p><h3>İlgili kişinin hakları</h3><p>Kanun’un 11. maddesi kapsamındaki haklarınızı Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğ’e göre kullanmak için feritozcelik042@gmail.com üzerinden iletişime geçebilir veya “Başvuru Formu”nu doldurup Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya adresine bizzat getirebilir, ıslak imzalı olarak noter kanalıyla gönderebilir ya da güvenli elektronik / mobil imzalı olarak, KEP veya kayıtlı e-posta adresiniz aracılığıyla iletebilirsiniz.</p><p>Hesap silme talebinizi Hizmet içinden veya feritozcelik042@gmail.com ile iletebilirsiniz. Mağaza aboneliğinizi iptal etmek için Google Play veya App Store hesap ayarlarınızı kullanmanız gerekir.</p><p>Başvuruda ad, soyad, T.C. kimlik numarası (veya yabancılar için pasaport / kimlik numarası), tebligata esas adres, varsa e-posta, telefon / faks numarası ve talep konusu yer almalıdır.</p><p>Başvurunuza yazılı olarak cevap verilecekse on sayfaya kadar ücret alınmaz; sonrası için sayfa başına 1 TL’ye kadar ücret talep edilebilir. Yanıtın kayıt ortamında verilmesi halinde kayıt ortamının maliyeti talep edilebilir.</p><p><strong>Ferit ÖZÇELİK</strong></p>",
+        "content_type": "text/html",
+        "updated_at": "2026-08-30T20:52:17.333153+00:00",
+        "package_name": "fostudio0.github.io",
+        "config": {
+          "controller_name": "Ferit ÖZÇELİK",
+          "email": "feritozcelik042@gmail.com",
+          "phone": "+90 553 150 1268",
+          "address": "Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya",
+          "website": "https://fostudio0.github.io/",
+          "app_name": "Application"
+        }
+      },
+      "visitor": {
+        "slug": "visitor",
+        "type": "WEBSITE_VISITOR_CLARIFICATION",
+        "lang": "tr",
+        "title": "Ziyaretçi Aydınlatma Metni",
+        "html": "<h2>Ziyaretçi / Kullanıcı Kişisel Verilerinin İşlenmesine İlişkin Aydınlatma Metni</h2><p>Değerli ziyaretçimiz;</p><p>Kişisel verileriniz, 6698 sayılı Kişisel Verilerin Korunması Kanunu uyarınca veri sorumlusu olarak <strong>Ferit ÖZÇELİK</strong> tarafından, 6563 sayılı Kanun uyarınca “aracı hizmet sağlayıcı” ve 5651 sayılı Kanun uyarınca “yer sağlayıcı” sıfatları kapsamında aşağıda açıklanan şekilde işlenebilecektir.</p><p>Bu metin; yazılımın hizmet olarak sunulduğu internet sitesi (SaaS) ile Google Play ve App Store üzerinden indirilen mobil uygulamalar için geçerlidir.</p><h3>Kişisel verileri toplama yöntemleri ve hukuki sebepleri</h3><p>Kişisel verileriniz; internet sitesine veya mobil uygulamaya erişmeniz, hesap oluşturmanız, abonelik veya uygulama içi satın alma yapmanız, talep veya destek formlarını kullanmanız, bildirimlere izin vermeniz ve çerez / benzeri teknolojiler aracılığıyla toplanabilir.</p><p>Kişisel verileriniz; kanunlarda açıkça öngörülme (5651 sayılı Kanun gereği log kayıtlarının tutulması), sözleşmenin kurulması ve ifası, hukuki yükümlülüğün yerine getirilmesi, veri sorumlusunun meşru menfaati ve çerezler bakımından Çerez Politikası kapsamında açık rıza verilmesi suretiyle işlenir.</p><h3>Kişisel verilerin işleme amaçları</h3><p>Kişisel verileriniz; SaaS hizmetinin ve mobil uygulamanın sunulması, hesabın oluşturulması ve yönetilmesi, abonelik ve faturalama, talep ve iletişim süreçlerinin yürütülmesi, güvenlik, hizmet kalitesinin artırılması ve mevzuattan kaynaklanan yükümlülüklerin yerine getirilmesi amaçlarıyla işlenebilir.</p><h3>Kişisel verilerin aktarılması</h3><p>Kişisel verileriniz, “bilme gereği” ve “kullanma gereği” ilkelerine uygun olarak; bulut / barındırma sağlayıcıları, ödeme kuruluşları, Google Play ve App Store faturalama altyapısı, iş ortakları, hizmet sağlayıcılar, kanunen yetkili kamu kurumları ve özel kişi veya kuruluşlar ile; hukuki uyuşmazlıkların giderilmesi veya mevzuat gereği talep halinde idari ve adli makamlarla; yurt içinde veya KVKK’nın öngördüğü şartlarla yurt dışında aktarılabilir.</p><h3>İlgili kişinin hakları</h3><p>Kişisel verisi işlenen kişi olarak Kanun’un 11. maddesi kapsamında; kişisel veri işlenip işlenmediğini öğrenme, işlenmişse bilgi talep etme, işlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme, yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme, eksik veya yanlış işlenmişse düzeltilmesini isteme, KVKK’da öngörülen şartlar çerçevesinde silinmesini veya yok edilmesini isteme, bu işlemlerin aktarılan üçüncü kişilere bildirilmesini isteme, otomatik sistemlerle analiz sonucu aleyhinize bir sonuca itiraz etme ve kanuna aykırı işlenme nedeniyle zararın giderilmesini talep etme haklarına sahipsiniz.</p><p>Hesabınızı ve kişisel verilerinizi silme talebinizi Hizmet içinden veya feritozcelik042@gmail.com üzerinden iletebilirsiniz.</p><p>Kanuni başvuru haklarınızı Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğ’e göre kullanmak için feritozcelik042@gmail.com üzerinden iletişime geçebilir veya “Başvuru Formu”nu doldurup Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya adresine gönderebilir ya da güvenli elektronik / mobil imza, KEP veya kayıtlı e-posta adresiniz aracılığıyla iletebilirsiniz.</p><p>Başvuruda ad, soyad, T.C. kimlik numarası (veya yabancılar için pasaport / kimlik numarası), tebligata esas adres, varsa e-posta, telefon / faks numarası ve talep konusu yer almalıdır.</p><p>Başvurunuza yazılı olarak cevap verilecekse on sayfaya kadar ücret alınmaz; sonrası için sayfa başına 1 TL’ye kadar ücret talep edilebilir. Yanıtın CD, flash bellek gibi bir kayıt ortamında verilmesi halinde kayıt ortamının maliyeti talep edilebilir.</p><p><strong>Ferit ÖZÇELİK</strong></p>",
+        "content_type": "text/html",
+        "updated_at": "2026-08-30T20:51:38.233594+00:00",
+        "package_name": "fostudio0.github.io",
+        "config": {
+          "controller_name": "Ferit ÖZÇELİK",
+          "email": "feritozcelik042@gmail.com",
+          "phone": "+90 553 150 1268",
+          "address": "Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya",
+          "website": "https://fostudio0.github.io/",
+          "app_name": "Application"
+        }
+      },
+      "commercial": {
+        "slug": "commercial",
+        "type": "COMMERCIAL_ELECTRONIC_MESSAGE_CLARIFICATION",
+        "lang": "tr",
+        "title": "Ticari İleti Aydınlatma Metni",
+        "html": "<h2>Ticari Elektronik İleti Gönderilebilmesi Amacıyla Kişisel Verilerin İşlenmesine İlişkin Aydınlatma Metni</h2><p>Değerli müşterimiz;</p><p>Kişisel verileriniz, 6698 sayılı Kişisel Verilerin Korunması Kanunu uyarınca veri sorumlusu olarak <strong>Ferit ÖZÇELİK</strong> (“Ferit ÖZÇELİK” veya “Şirket”) tarafından aşağıda açıklanan şekilde işlenebilecektir.</p><h3>Kişisel verileri toplama yöntemleri ve hukuki sebepleri</h3><p>Kişisel verileriniz, SaaS sitesinde veya Google Play / App Store uygulamasında üye olurken ya da iletişim bilgilerinizi paylaşırken elde edilir. İşleme, açık rıza hukuki sebebine dayanır.</p><h3>Kişisel verileri işleme amaçları</h3><p>Kişisel verileriniz; genel veya size özel bilgilendirme, tanıtım, kampanya, avantaj, reklam ve pazarlama faaliyetleri kapsamında SMS, e-posta, arama ve benzeri kanallardan ticari ileti gönderilmesi; ürün ve hizmetlere ilişkin anket, davet ve etkinlik duyurularının iletilmesi; müşteri memnuniyeti araştırması yapılması amaçlarıyla, KVKK’daki şartlar ve bu aydınlatma metni sınırları dâhilinde işlenebilir.</p><h3>Kişisel verilerin aktarılması</h3><p>Kişisel verileriniz, “bilme gereği” ve “kullanma gereği” ilkelerine uygun olarak; iş ortakları, hizmet sağlayıcılar, uzmanlar, hukuk büroları, denetim firmaları, kanunen yetkili kamu kurumları ve özel kişi veya kuruluşlar ile; hukuki uyuşmazlıkların giderilmesi veya mevzuat gereği talep halinde idari ve adli makamlarla; yurt içinde veya KVKK’nın öngördüğü şartlarla yurt dışında aktarılabilir.</p><h3>İlgili kişinin hakları</h3><p>Kanun’un 11. maddesi kapsamındaki haklarınızı Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğ’e göre kullanmak için feritozcelik042@gmail.com üzerinden iletişime geçebilir veya “Başvuru Formu”nu doldurup Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya adresine ıslak imzalı olarak noter kanalıyla gönderebilir ya da güvenli elektronik / mobil imzalı olarak, KEP veya kayıtlı e-posta adresiniz aracılığıyla iletebilirsiniz.</p><p>Başvuruda ad, soyad, T.C. kimlik numarası (veya yabancılar için pasaport / kimlik numarası), tebligata esas adres, varsa e-posta, telefon / faks numarası ve talep konusu yer almalıdır.</p><p>Başvurunuza yazılı olarak cevap verilecekse on sayfaya kadar ücret alınmaz. Sonrası için sayfa başına 1 TL işlem ücreti alınabilir. Yanıtın CD, flash bellek gibi bir kayıt ortamında verilmesi halinde kayıt ortamının maliyeti talep edilebilir.</p><p><strong>Ferit ÖZÇELİK</strong></p>",
+        "content_type": "text/html",
+        "updated_at": "2026-08-30T20:51:38.233594+00:00",
+        "package_name": "fostudio0.github.io",
+        "config": {
+          "controller_name": "Ferit ÖZÇELİK",
+          "email": "feritozcelik042@gmail.com",
+          "phone": "+90 553 150 1268",
+          "address": "Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya",
+          "website": "https://fostudio0.github.io/",
+          "app_name": "Application"
+        }
+      },
+      "application": {
+        "slug": "application",
+        "type": "DATA_SUBJECT_APPLICATION_FORM",
+        "lang": "tr",
+        "title": "İlgili Kişi Başvuru Formu",
+        "html": "<h2>İlgili Kişi Başvuru Formu</h2><p><strong>Veri sorumlusu:</strong> Ferit ÖZÇELİK</p><h3>Başvuru sahibinin iletişim bilgileri</h3><ul><li>Adı ve soyadı:</li><li>Ülke:</li><li>T.C. kimlik numarası:</li><li>Adres:</li><li>Telefon numarası:</li><li>E-posta adresi:</li></ul><p>Ferit ÖZÇELİK ile olan ilişkinizi belirtiniz (SaaS kullanıcısı, mobil uygulama kullanıcısı, üye, müşteri, ziyaretçi, çalışan adayı vb.):</p><h3>Kullanılacak hakkın seçimi</h3><ol><li>Şirketinizin hakkımda kişisel veri işleyip işlemediğini öğrenmek istiyorum.</li><li>Hakkımda kişisel veri işleniyorsa bu faaliyetler hakkında bilgi talep ediyorum.</li><li>İşlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenmek istiyorum.</li><li>Kişisel verilerim yurt içinde veya yurt dışında üçüncü kişilere aktarılıyorsa bu kişileri bilmek istiyorum.</li><li>Kişisel verilerimin eksik veya yanlış işlendiğini düşünüyorum; düzeltilmesini istiyorum.</li><li>Kanun ve ilgili mevzuata uygun işlenmiş olsa da kişisel verilerimin silinmesini veya yok edilmesini istiyorum.</li><li>Düzeltme talebimin aktarıldığı üçüncü kişiler nezdinde de uygulanmasını istiyorum.</li><li>Silme talebimin aktarıldığı üçüncü kişiler nezdinde de uygulanmasını istiyorum.</li><li>Kişisel verilerimin münhasıran otomatik sistemler vasıtasıyla analiz edilmesi sonucu aleyhime bir sonuç doğduğunu düşünüyorum; bu sonuca itiraz ediyorum.</li><li>Kişisel verilerimin kanuna aykırı işlenmesi nedeniyle uğradığım zararın giderilmesini talep ediyorum.</li></ol><p>Talebinizi, bilgi almak istediğiniz veri türünü ve varsa ilgili süreci detaylı olarak yazınız:</p><h3>Ekler</h3><p>Başvurunuza dayanak göstermek istediğiniz belge varsa belirtiniz.</p><h3>Yanıtın iletilme yöntemi</h3><ul><li>Adresime gönderilmesini istiyorum.</li><li>E-posta adresime gönderilmesini istiyorum.</li><li>Elden teslim almak istiyorum. (Vekâleten teslimde noter tasdikli vekâletname veya yetki belgesi gerekir.)</li></ul><h3>Genel açıklamalar</h3><p>Bu form, Ferit ÖZÇELİK ile ilişkinizi tespit ederek başvurunuza süresi içinde doğru cevap verilebilmesi için düzenlenmiştir. Kimlik ve yetki tespiti için ek evrak (nüfus cüzdanı veya sürücü belgesi sureti vb.) talep etme hakkı saklıdır.</p><p>Formda yer alan bilgilerin doğru ve güncel olmaması veya yetkisiz başvuru halinde Ferit ÖZÇELİK sorumluluk kabul etmez.</p><p>Bu formda paylaştığınız kişisel veriler yalnızca talebinizin değerlendirilmesi, sonuçlandırılması ve sizinle iletişime geçilmesi amacıyla işlenir. Talebin niteliğine göre avukatlar, hizmet sağlayıcılar ve kanunen yetkili kamu kurumları ile paylaşılabilir.</p><h3>İlgili kişi taahhüdü</h3><p>Kişisel Verilerin Korunması Kanunu uyarınca yaptığım başvurunun yukarıdaki çerçevede sonuçlandırılmasını talep eder; bu formdaki bilgi ve belgelerin doğru, güncel ve şahsıma ait olduğunu kabul, beyan ve taahhüt ederim.</p><p>Adı ve soyadı:</p><p>Tarih: ____________</p><p>İmza:</p>",
+        "content_type": "text/html",
+        "updated_at": "2026-08-30T20:52:12.508091+00:00",
+        "package_name": "fostudio0.github.io",
+        "config": {
+          "controller_name": "Ferit ÖZÇELİK",
+          "email": "feritozcelik042@gmail.com",
+          "phone": "+90 553 150 1268",
+          "address": "Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya",
+          "website": "https://fostudio0.github.io/",
+          "app_name": "Application"
+        }
+      }
+    },
+    "en": {
+      "privacy": {
+        "slug": "privacy",
+        "type": "PRIVACY_POLICY",
+        "lang": "en",
+        "title": "Privacy Policy",
+        "html": "<p>This Privacy Policy explains how your personal data are processed when you use the <strong>{{app_name}}</strong> mobile application developed by <strong>Ferit ÖZÇELİK</strong> (“Developer”).</p>\n\n<p>The Developer is the data controller under the Personal Data Protection Law No. 6698 (“KVKK”).</p>\n\n<ul>\n<li>Email: feritozcelik042@gmail.com</li>\n<li>Address: Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya</li>\n</ul>\n\n<h2>1. Nature of the Application</h2>\n\n<p>{{app_name}} is a goal and habit tracking application. All user data is stored exclusively on the user's own device and is not transferred to or remotely accessible by the Developer.</p>\n\n<h2>2. Personal Data Collected</h2>\n\n<h3>2.1. Authentication (Optional Only)</h3>\n\n<p>If the Google sign-in option is used, only the following information is retrieved from your Google Account:</p>\n\n<ul>\n<li><strong>Display name</strong></li>\n<li><strong>Email address</strong></li>\n</ul>\n\n<p>This information is stored locally on your device only. It is not transmitted to the Developer or any server. Your Google profile photo is not retrieved or stored.</p>\n\n<h3>2.2. Application Content (Local Storage)</h3>\n\n<ul>\n<li><strong>Goal and habit data:</strong> goal titles, completion/skip/failure records, streaks, reminder settings</li>\n<li><strong>User preferences:</strong> theme, week start day, notification times, sound effects, color choices</li>\n<li><strong>Widget statistics:</strong> total goals, completed goals, max streak (displayed only in the on-device widget)</li>\n</ul>\n\n<p>This data is stored in the SQLDelight local database and SharedPreferences and never leaves your device.</p>\n\n<h3>2.3. Notifications (Local Only)</h3>\n\n<p>The application sends only local reminder notifications on your device. No remote (push) notifications are used. Notification settings are stored on your device.</p>\n\n<h2>3. Data Not Collected</h2>\n\n<p>The application <strong>does not</strong> collect any of the following:</p>\n\n<ul>\n<li>Location data</li>\n<li>Camera or microphone recordings</li>\n<li>Contacts or address book</li>\n<li>Files, photos, or media</li>\n<li>Device identifiers (IMEI, Android ID, advertising ID)</li>\n<li>IP addresses</li>\n<li>Online behavior data or profiling</li>\n<li>Analytics or crash reporting data</li>\n</ul>\n\n<h2>4. Purposes and Legal Bases for Processing</h2>\n\n<table>\n<tr><th>Purpose</th><th>Legal Basis</th></tr>\n<tr><td>Google authentication (optional)</td><td>Explicit consent (KVKK Art. 5/2)</td></tr>\n<tr><td>Storing goal and habit data on device</td><td>Performance of contract (KVKK Art. 5/2/c) — service delivery</td></tr>\n<tr><td>Sending local reminder notifications</td><td>Explicit consent (KVKK Art. 5/2)</td></tr>\n<tr><td>Storing in-app preferences</td><td>Legitimate interest (KVKK Art. 5/2/f) — improving user experience</td></tr>\n</table>\n\n<h2>5. Third-Party Sharing</h2>\n\n<p>Your personal data is not shared with any third parties.</p>\n\n<p>The application uses Google Identity Authentication, which is governed by Google LLC's own privacy policy:</p>\n<ul>\n<li><a href=\"https://policies.google.com/privacy\">Google Privacy Policy</a></li>\n</ul>\n\n<h2>6. Cross-Border Transfer</h2>\n\n<p>Your personal data is not processed or stored outside of Turkey. All data is stored exclusively on the user's own device locally.</p>\n\n<h2>7. Data Retention Period</h2>\n\n<p>Local data is retained on the device until the user uninstalls the application or deletes their account. The Developer does not store or back up any data.</p>\n\n<h2>8. Your Rights (KVKK Art. 11)</h2>\n\n<p>Under the KVKK, you have the right to:</p>\n\n<ul>\n<li>Learn whether your personal data is being processed</li>\n<li>Request information about the processing of your personal data</li>\n<li>Learn the purpose of processing and whether the data is used in accordance with that purpose</li>\n<li>Learn the third parties to whom the data has been transferred domestically or abroad</li>\n<li>Request rectification if the data has been processed incompletely or inaccurately</li>\n<li>Request deletion or destruction of your data under the conditions set forth in KVKK Art. 7</li>\n<li>Request notification of the operations carried out under the above items to the third parties to whom the data has been transferred</li>\n<li>Object to the emergence of a result that is to your benefit through exclusively automated analysis of the processed data</li>\n<li>Request compensation for damages arising from unlawful processing</li>\n</ul>\n\n<h2>9. Application</h2>\n\n<p>To exercise your rights, you may send an email to feritozcelik042@gmail.com. Your applications will be concluded within the periods specified in the KVKK.</p>\n\n<p>If you find the response insufficient or if no response is provided within the required timeframe, you have the right to complain to the Personal Data Protection Authority.</p>\n\n<h2>10. Protection of Children</h2>\n\n<p>The application is not intended for children under the age of 13. Personal data is not knowingly collected from minors.</p>\n\n<h2>11. Policy Changes</h2>\n\n<p>This policy may be updated due to changes in legislation or the application. The current text enters into force on the date it is published within the application.</p>\n\n<h2>12. Contact</h2>\n\n<p>Ferit ÖZÇELİK</p>\n<ul>\n<li>Email: feritozcelik042@gmail.com</li>\n<li>Address: Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya</li>\n</ul>",
+        "content_type": "text/html",
+        "updated_at": "2026-09-10T17:54:57.963722+00:00",
+        "package_name": "fostudio0.github.io",
+        "config": {
+          "controller_name": "Ferit ÖZÇELİK",
+          "email": "feritozcelik042@gmail.com",
+          "phone": "+90 553 150 1268",
+          "address": "Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya",
+          "website": "https://fostudio0.github.io/",
+          "app_name": "Application"
+        }
+      },
+      "terms": {
+        "slug": "terms",
+        "type": "TERMS_OF_SERVICE",
+        "lang": "en",
+        "title": "Terms of Use",
+        "html": "<p>These Terms of Use (“Terms”) govern your use of the <strong>{{app_name}}</strong> mobile application distributed on Google Play and the App Store and any related cloud features (together the “Service”) offered by <strong>Ferit ÖZÇELİK</strong> (the “Company”).</p>\n<p>By downloading, creating an account or using the Service you agree to these Terms. If you do not agree, do not use the Service.</p>\n<h2>1. The Service</h2>\n<p>{{app_name}} lets you create, scan, store and optionally sync QR codes. Some features require a Google account, device permissions (camera, photos, notifications) or an internet connection. Features that are not available on a platform are hidden in the app.</p>\n<h2>2. Account</h2>\n<p>You may sign in with Google. You are responsible for activity under your account. You may delete your account from Profile in the app or by writing to feritozcelik042@gmail.com. Deleting the account does not cancel a store subscription.</p>\n<h2>3. Subscriptions and in-app purchases</h2>\n<p>Optional auto-renewing subscriptions (“{{app_name}} Premium”) are sold through Google Play and the App Store:</p>\n<ul>\n<li>Weekly Premium</li>\n<li>Monthly Premium</li>\n<li>Yearly Premium</li>\n</ul>\n<p>The price is the amount shown in the app and in the store at the time of purchase, in your local currency. Payment is charged to your Google account or Apple ID when you confirm the purchase. The Company does not receive or store your card number.</p>\n<p>Subscriptions automatically renew unless you cancel at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period, at the then-current price. After purchase you can manage or cancel the subscription in your store account settings:</p>\n<ul>\n<li>Google Play: Google Play → Payments &amp; subscriptions → Subscriptions</li>\n<li>App Store: Settings → Apple ID → Subscriptions</li>\n</ul>\n<p>Cancelling stops the next renewal; access continues until the end of the paid period. Refunds are handled by Google or Apple under their store rules, except where consumer law requires otherwise.</p>\n<h2>4. Cloud features and limits</h2>\n<p>Cloud sync and dynamic QR codes may be limited for free accounts. Premium increases those limits as shown in the app. After a subscription ends, a short grace period may apply; after grace, cloud QR data may be removed as described in the Privacy Policy.</p>\n<h2>5. Acceptable use</h2>\n<p>You must not use the Service to create or distribute illegal, harmful or deceptive QR content, to attack the Service, or to infringe others’ rights. The Company may suspend access for abuse.</p>\n<h2>6. Intellectual property</h2>\n<p>The app, trademarks and content of the Company remain the Company’s property. QR content you create remains yours. You grant the Company a limited licence to host that content when you enable cloud sync.</p>\n<h2>7. Ads</h2>\n<p>Free users may see ads. Premium removes ads. Ads are provided by third-party networks under their own policies.</p>\n<h2>8. Disclaimer and liability</h2>\n<p>The Service is provided “as is”. To the extent permitted by law the Company is not liable for indirect or consequential loss, or for content encoded in QR codes you create or scan. Nothing in these Terms limits liability that cannot be limited under applicable law, including mandatory consumer rights in your country.</p>\n<h2>9. Privacy</h2>\n<p>Personal data are processed as described in the Privacy Policy. The current Privacy Policy is published with these Terms and is listed on the Google Play and App Store pages.</p>\n<h2>10. Changes and contact</h2>\n<p>The Company may update these Terms. The current text applies from the date it is published. Contact: feritozcelik042@gmail.com · +90 553 150 1268 · Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya</p>",
+        "content_type": "text/html",
+        "updated_at": "2026-08-30T20:47:47.339976+00:00",
+        "package_name": "fostudio0.github.io",
+        "config": {
+          "controller_name": "Ferit ÖZÇELİK",
+          "email": "feritozcelik042@gmail.com",
+          "phone": "+90 553 150 1268",
+          "address": "Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya",
+          "website": "https://fostudio0.github.io/",
+          "app_name": "Application"
+        }
+      },
+      "account-deletion": {
+        "slug": "account-deletion",
+        "type": "ACCOUNT_DELETION",
+        "lang": "en",
+        "title": "Account deletion",
+        "html": "<h2>Account deletion</h2>\n<p>This page explains how to delete your <strong>{{app_name}}</strong> account. Google Play and the App Store require a clear account-deletion path that can be used without going through the store listing alone.</p>\n<h3>In the app</h3>\n<ol>\n<li>Open Profile</li>\n<li>Sign in with Google if you are not signed in</li>\n<li>Tap Delete account</li>\n<li>Choose a reason and confirm</li>\n</ol>\n<h3>By e-mail</h3>\n<p>Write to feritozcelik042@gmail.com from the address linked to your account. After identity verification the request is completed within the periods set out in the KVKK.</p>\n<h3>What is deleted</h3>\n<ul>\n<li>Cloud-synced QR codes and related cloud data for {{app_name}}</li>\n<li>This app’s sign-in session and device / push entries</li>\n<li>Usage counts for this app</li>\n<li>Profile fields used by the Service, subject to statutory retention</li>\n</ul>\n<h3>What is not cancelled automatically</h3>\n<p>Google Play or App Store subscriptions must be cancelled in the store. If you delete the account without cancelling, the store may continue to charge.</p>\n<ul>\n<li>Google Play: Google Play → Payments &amp; subscriptions → Subscriptions</li>\n<li>App Store: Settings → Apple ID → Subscriptions</li>\n</ul>\n<h3>Contact</h3>\n<p>feritozcelik042@gmail.com · +90 553 150 1268 · Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya</p>",
+        "content_type": "text/html",
+        "updated_at": "2026-08-30T20:47:47.339976+00:00",
+        "package_name": "fostudio0.github.io",
+        "config": {
+          "controller_name": "Ferit ÖZÇELİK",
+          "email": "feritozcelik042@gmail.com",
+          "phone": "+90 553 150 1268",
+          "address": "Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya",
+          "website": "https://fostudio0.github.io/",
+          "app_name": "Application"
+        }
+      },
+      "cookies": {
+        "slug": "cookies",
+        "type": "COOKIE_POLICY",
+        "lang": "en",
+        "title": "Cookie Policy",
+        "html": "<p><strong>Ferit ÖZÇELİK</strong> (“Ferit ÖZÇELİK” or the “Company”) may use cookies, SDKs and similar technologies on the SaaS website and in the mobile application offered through Google Play / the App Store (the “Service”). The purpose of this policy is to explain which cookies and similar technologies we use and why, how you can manage them, and how you can change your preferences.</p><h2>What is a cookie?</h2><p>Cookies are text files, usually made of letters and numbers, that websites you visit store on your device through browsers. Cookies do not by themselves contain identity data such as name, surname or address. When a connection is established between your browser and the server, the Service may recognise you and present content accordingly.</p><h2>Purposes of using cookies</h2><ul><li>To improve the functionality and performance of the Service</li><li>To collect statistical data on how the Service is used and to improve content</li><li>To remember displayed content, visit duration and similar usage information</li><li>To protect the legal and commercial security of you and the Company</li></ul><h2>Types of cookies</h2><h3>By purpose</h3><ul><li><strong>Strictly necessary cookies:</strong> Required for the Service to work as intended. They are not used for marketing. If blocked, some parts may not work.</li><li><strong>Functional cookies:</strong> Remember your preferences and allow content to be personalised. You may turn them off at any time.</li><li><strong>Performance cookies:</strong> Allow statistical measurement of use and help improve the Service.</li><li><strong>Marketing cookies:</strong> May be used to present content relevant to your interests. Their use can be blocked.</li></ul><h3>By storage period</h3><ul><li><strong>Session cookies:</strong> Are not kept on the device after the browser is closed.</li><li><strong>Persistent cookies:</strong> Are deleted automatically after a set period or remain until you delete them.</li></ul><h3>By source</h3><ul><li><strong>First-party cookies:</strong> Created by the Service you visit.</li><li><strong>Third-party cookies:</strong> May be created by partners or service providers because of plugins added to the Service.</li></ul><h2>Managing cookies</h2><p>Browsers usually accept cookies automatically. You may block cookies, choose to delete them, or receive a warning in your browser settings. Preferences must be set separately for each device and browser.</p><p>You can manage cookies in your browser’s privacy or site settings. If measurement, crash-reporting or notification SDKs are used in the mobile application, you may limit them from in-app settings, device permissions, or Google Play / App Store privacy settings.</p><p>If you block cookies you may be unable to use some features of the Service, or your access may be limited.</p><p>For general information and preference management you may visit allaboutcookies.org or youronlinechoices.eu.</p><h2>Cookies we use</h2><p>The Service may use strictly necessary, functional and (where explicit consent is given) performance or marketing cookies. The purpose, category and retention period of cookies in use can be seen in the cookie notice on the Service.</p><h2>Similar technologies</h2><p>Analytics or measurement tools may be used to understand use of the Service and to measure performance. These tools may produce statistical information such as page views, session duration, approximate location (country / city) and device / browser type. Data are processed in a de-identified or pseudonymous form where possible.</p><h2>Social media plugins</h2><p>If the Service contains social media plugins, some of your information may be shared with the relevant provider when you click the related button. If you do not want your visit to be associated with your account, you should sign out of that account before using the Service.</p>",
+        "content_type": "text/html",
+        "updated_at": "2026-08-30T20:50:42.99145+00:00",
+        "package_name": "fostudio0.github.io",
+        "config": {
+          "controller_name": "Ferit ÖZÇELİK",
+          "email": "feritozcelik042@gmail.com",
+          "phone": "+90 553 150 1268",
+          "address": "Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya",
+          "website": "https://fostudio0.github.io/",
+          "app_name": "Application"
+        }
+      },
+      "membership": {
+        "slug": "membership",
+        "type": "MEMBERSHIP_CLARIFICATION",
+        "lang": "en",
+        "title": "Membership Notice",
+        "html": "<h2>Notice on the Processing of Personal Data in Membership and SaaS Use</h2><p>Dear member / prospective member;</p><p>Your personal data may be processed as described below by <strong>Ferit ÖZÇELİK</strong> (“Ferit ÖZÇELİK” or the “Company”) as data controller under the Personal Data Protection Law No. 6698.</p><p>This notice applies to membership in the software service offered over the internet (SaaS) and in the mobile application on Google Play and the App Store.</p><h3>Collection methods and legal grounds</h3><p>The Company obtains your personal data electronically from the information you provide when creating a membership, from records you update in your account, and from subscription and in-app purchase transactions.</p><p>Your personal data are processed for the establishment and performance of the membership and SaaS agreement, because it is expressly provided for by law, to fulfil legal obligations, based on legitimate interest, for the establishment, exercise or protection of a right, and based on explicit consent (for example for commercial electronic messages and personalisation of services).</p><p>If you notice that your membership information is incomplete or incorrect, you may correct it in account settings or contact feritozcelik042@gmail.com.</p><p>After membership is completed, this notice and the terms of use may be sent to the e-mail address you declared and/or made available on the Service.</p><p>Ferit ÖZÇELİK takes care to implement the technical and administrative measures required for the information security of users and members. Payments made on the web are processed through secure third-party payment providers. For subscriptions and in-app purchases made through Google Play or the App Store, payment is collected through the relevant store infrastructure. Card details are not stored in Company systems and are not viewed by the Company.</p><p>The principles on processing, protection, storage and destruction of personal data are subject to the Privacy Notice, the Privacy Policy and applicable law.</p><h3>Purposes of processing</h3><p>Your personal data are processed to create customer and membership records, to manage the SaaS account, for subscription and billing, to make the service easier to use, to follow requests and complaints, for business continuity, marketing and analysis, to send campaign information to persons who have given permission, to plan information-security processes, to inform authorised persons / institutions, and to manage the IT infrastructure.</p><h3>Transfers</h3><p>Your personal data may be shared, on a need-to-know and need-to-use basis, with cloud / hosting providers, payment institutions, Google Play and the App Store, business partners, service providers, specialists, law firms, audit firms, legally authorised public institutions and private persons or entities; with administrative and judicial authorities if required to resolve legal disputes or by law; in Türkiye or abroad under the conditions set out in the Personal Data Protection Law.</p><h3>Your rights</h3><p>To exercise your rights under Article 11 of the Law in accordance with the Communiqué on the Procedures and Principles of Application to the Data Controller, you may contact feritozcelik042@gmail.com, deliver the Application Form in person to Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya, send it with a wet-ink signature via a notary, or submit it with a secure electronic / mobile signature, via Registered Electronic Mail (KEP) or your registered e-mail address.</p><p>You may request account deletion from within the Service or via feritozcelik042@gmail.com. To cancel a store subscription you must use your Google Play or App Store account settings.</p><p>Applications must include your name, surname, Turkish ID number (or passport / ID number for foreigners), an address for service, e-mail if any, phone / fax number, and the subject of the request.</p><p>If a written reply is given, no fee is charged for up to ten pages; thereafter a fee of up to TRY 1 per page may be requested. If the reply is provided on a recording medium, the cost of that medium may be requested.</p><p><strong>Ferit ÖZÇELİK</strong></p>",
+        "content_type": "text/html",
+        "updated_at": "2026-08-30T20:52:12.508091+00:00",
+        "package_name": "fostudio0.github.io",
+        "config": {
+          "controller_name": "Ferit ÖZÇELİK",
+          "email": "feritozcelik042@gmail.com",
+          "phone": "+90 553 150 1268",
+          "address": "Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya",
+          "website": "https://fostudio0.github.io/",
+          "app_name": "Application"
+        }
+      },
+      "visitor": {
+        "slug": "visitor",
+        "type": "WEBSITE_VISITOR_CLARIFICATION",
+        "lang": "en",
+        "title": "Visitor Notice",
+        "html": "<h2>Notice on the Processing of Visitor / User Personal Data</h2><p>Dear visitor;</p><p>Your personal data may be processed as described below by <strong>Ferit ÖZÇELİK</strong> as data controller under the Personal Data Protection Law No. 6698, as an “intermediary service provider” under Law No. 6563, and as a “hosting provider” under Law No. 5651.</p><p>This notice applies to the software offered as a service over the internet (SaaS) and to the mobile applications downloaded from Google Play and the App Store.</p><h3>Collection methods and legal grounds</h3><p>Your personal data may be collected when you access the website or mobile application, create an account, subscribe or make an in-app purchase, use request or support forms, allow notifications, and through cookies / similar technologies.</p><p>Your personal data are processed because it is expressly provided for by law (including log records required by Law No. 5651), for the establishment and performance of a contract, for compliance with a legal obligation, based on the data controller’s legitimate interest, and, for cookies, based on your explicit consent under the Cookie Policy.</p><h3>Purposes of processing</h3><p>Your personal data may be processed to provide the SaaS service and the mobile application, to create and manage your account, for subscription and billing, to handle requests and communications, for security, to improve service quality, and to fulfil legal obligations.</p><h3>Transfers</h3><p>Your personal data may be shared, on a need-to-know and need-to-use basis, with cloud / hosting providers, payment institutions, Google Play and App Store billing infrastructure, business partners, service providers, legally authorised public institutions and private persons or entities; with administrative and judicial authorities if required to resolve legal disputes or by law; in Türkiye or abroad under the conditions set out in the Personal Data Protection Law.</p><h3>Your rights</h3><p>As a data subject, under Article 11 of the Law you have the right to learn whether your personal data are processed, to request information, to learn the purpose of processing and whether they are used in line with that purpose, to know the third parties to whom they are transferred in Türkiye or abroad, to request correction if they are incomplete or inaccurate, to request deletion or destruction under the Law, to request that these operations be notified to third parties, to object to a result against you arising from analysis by automated systems, and to claim compensation for damage caused by unlawful processing.</p><p>You may request deletion of your account and personal data from within the Service or via feritozcelik042@gmail.com.</p><p>To exercise your statutory rights in accordance with the Communiqué on the Procedures and Principles of Application to the Data Controller, you may contact feritozcelik042@gmail.com, send the Application Form to Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya, or submit it with a secure electronic / mobile signature, via Registered Electronic Mail (KEP) or your registered e-mail address.</p><p>Applications must include your name, surname, Turkish ID number (or passport / ID number for foreigners), an address for service, e-mail if any, phone / fax number, and the subject of the request.</p><p>If a written reply is given, no fee is charged for up to ten pages; thereafter a fee of up to TRY 1 per page may be requested. If the reply is provided on a recording medium such as a CD or flash drive, the cost of that medium may be requested.</p><p><strong>Ferit ÖZÇELİK</strong></p>",
+        "content_type": "text/html",
+        "updated_at": "2026-08-30T20:50:55.978676+00:00",
+        "package_name": "fostudio0.github.io",
+        "config": {
+          "controller_name": "Ferit ÖZÇELİK",
+          "email": "feritozcelik042@gmail.com",
+          "phone": "+90 553 150 1268",
+          "address": "Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya",
+          "website": "https://fostudio0.github.io/",
+          "app_name": "Application"
+        }
+      },
+      "commercial": {
+        "slug": "commercial",
+        "type": "COMMERCIAL_ELECTRONIC_MESSAGE_CLARIFICATION",
+        "lang": "en",
+        "title": "Commercial Message Notice",
+        "html": "<h2>Notice on the Processing of Personal Data for Sending Commercial Electronic Messages</h2><p>Dear customer;</p><p>Your personal data may be processed as described below by <strong>Ferit ÖZÇELİK</strong> (“Ferit ÖZÇELİK” or the “Company”) as data controller under the Personal Data Protection Law No. 6698.</p><h3>Collection methods and legal grounds</h3><p>Your personal data are obtained when you become a member on the SaaS site or in the Google Play / App Store application, or when you share your contact details. Processing is based on explicit consent.</p><h3>Purposes of processing</h3><p>Your personal data may be processed, within the limits of this notice and the Personal Data Protection Law, to send commercial messages by SMS, e-mail, call and similar channels for general or personalised information, promotion, campaigns, advantages, advertising and marketing; to send surveys, invitations and event announcements about products and services; and to conduct customer-satisfaction research.</p><h3>Transfers</h3><p>Your personal data may be shared, on a need-to-know and need-to-use basis, with business partners, service providers, specialists, law firms, audit firms, legally authorised public institutions and private persons or entities; with administrative and judicial authorities if required to resolve legal disputes or by law; in Türkiye or abroad under the conditions set out in the Personal Data Protection Law.</p><h3>Your rights</h3><p>To exercise your rights under Article 11 of the Law in accordance with the Communiqué on the Procedures and Principles of Application to the Data Controller, you may contact feritozcelik042@gmail.com, send the Application Form with a wet-ink signature via a notary to Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya, or submit it with a secure electronic / mobile signature, via Registered Electronic Mail (KEP) or your registered e-mail address.</p><p>Applications must include your name, surname, Turkish ID number (or passport / ID number for foreigners), an address for service, e-mail if any, phone / fax number, and the subject of the request.</p><p>If a written reply is given, no fee is charged for up to ten pages. Thereafter a processing fee of TRY 1 per page may be charged. If the reply is provided on a recording medium such as a CD or flash drive, the cost of that medium may be requested.</p><p><strong>Ferit ÖZÇELİK</strong></p>",
+        "content_type": "text/html",
+        "updated_at": "2026-08-30T20:51:38.233594+00:00",
+        "package_name": "fostudio0.github.io",
+        "config": {
+          "controller_name": "Ferit ÖZÇELİK",
+          "email": "feritozcelik042@gmail.com",
+          "phone": "+90 553 150 1268",
+          "address": "Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya",
+          "website": "https://fostudio0.github.io/",
+          "app_name": "Application"
+        }
+      },
+      "application": {
+        "slug": "application",
+        "type": "DATA_SUBJECT_APPLICATION_FORM",
+        "lang": "en",
+        "title": "Data Subject Application Form",
+        "html": "<h2>Data Subject Application Form</h2><p><strong>Data controller:</strong> Ferit ÖZÇELİK</p><h3>Applicant contact details</h3><ul><li>Name and surname:</li><li>Country:</li><li>Turkish ID number:</li><li>Address:</li><li>Phone number:</li><li>E-mail address:</li></ul><p>Please state your relationship with Ferit ÖZÇELİK (SaaS user, mobile application user, member, customer, visitor, job applicant, etc.):</p><h3>Right you wish to exercise</h3><ol><li>I want to learn whether your company processes personal data about me.</li><li>If personal data about me are processed, I request information about these activities.</li><li>I want to learn the purpose of processing and whether they are used in line with that purpose.</li><li>If my personal data are transferred to third parties in Türkiye or abroad, I want to know those persons.</li><li>I believe my personal data have been processed incompletely or inaccurately; I request correction.</li><li>Even if processed in accordance with the Law and related legislation, I request deletion or destruction of my personal data.</li><li>I request that my correction request also be applied by the third parties to whom data were transferred.</li><li>I request that my deletion request also be applied by the third parties to whom data were transferred.</li><li>I believe a result against me has arisen from analysis of my personal data exclusively by automated systems; I object to that result.</li><li>I claim compensation for damage I have suffered due to unlawful processing of my personal data.</li></ol><p>Please describe your request in detail, including the type of data you want information about and any related process:</p><h3>Attachments</h3><p>If you wish to attach a document in support of your application, please specify.</p><h3>How you want the reply to be delivered</h3><ul><li>I want it sent to my address.</li><li>I want it sent to my e-mail address.</li><li>I want to collect it in person. (For collection by a proxy, a notarised power of attorney or authorisation document is required.)</li></ul><h3>General remarks</h3><p>This form has been prepared so that your relationship with Ferit ÖZÇELİK can be identified and your application can be answered correctly within the statutory period. The right to request additional documents for identity and authority verification (such as a copy of an ID card or driving licence) is reserved.</p><p>Ferit ÖZÇELİK accepts no liability if the information in the form is not accurate and up to date, or if the application is unauthorised.</p><p>The personal data you share in this form are processed only to assess and conclude your request and to contact you. Depending on the nature of the request they may be shared with lawyers, service providers and legally authorised public institutions.</p><h3>Data subject declaration</h3><p>I request that my application under the Personal Data Protection Law be concluded within the framework above, and I accept, declare and undertake that the information and documents in this form are accurate, up to date and belong to me.</p><p>Name and surname:</p><p>Date: ____________</p><p>Signature:</p>",
+        "content_type": "text/html",
+        "updated_at": "2026-08-30T20:52:12.508091+00:00",
+        "package_name": "fostudio0.github.io",
+        "config": {
+          "controller_name": "Ferit ÖZÇELİK",
+          "email": "feritozcelik042@gmail.com",
+          "phone": "+90 553 150 1268",
+          "address": "Hacıveyiszade Mah. Gürşehir sok. Çiğdem Apt. No 14/5 Karatay/Konya",
+          "website": "https://fostudio0.github.io/",
+          "app_name": "Application"
+        }
+      }
+    }
+  }
+}

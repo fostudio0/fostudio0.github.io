@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { AppItem } from "@/lib/play-apps";
 import type { PageMessages } from "@/i18n/messages";
 
@@ -68,30 +69,42 @@ export function AppsSection({ apps, locale }: AppsSectionProps) {
         </div>
 
         <div className="apps-list">
-          {apps.items.map((app) => (
-            <a
-              key={app.href}
-              href={app.slug ? `/apps/${app.slug}/` : app.href}
-              target={app.slug ? undefined : "_blank"}
-              rel={app.slug ? undefined : "noopener noreferrer"}
-              className="app-card"
-            >
-              <img src={app.icon} alt={app.alt} className="app-icon" />
-              <div className="app-copy">
-                <h3 className="app-name">{app.name}</h3>
-                <AppStats
-                  app={app}
-                  reviewsLabel={apps.reviewsLabel}
-                  downloadsLabel={apps.downloadsLabel}
-                  numberLocale={numberLocale}
-                />
-                <p className="app-description">{app.description}</p>
-              </div>
-              <span className="app-action">
-                {app.slug ? apps.detailsLabel : apps.storeLabel} →
-              </span>
-            </a>
-          ))}
+          {apps.items.map((app) => {
+            const cardInner = (
+              <>
+                <img src={app.icon} alt={app.alt} className="app-icon" />
+                <div className="app-copy">
+                  <h3 className="app-name">{app.name}</h3>
+                  <AppStats
+                    app={app}
+                    reviewsLabel={apps.reviewsLabel}
+                    downloadsLabel={apps.downloadsLabel}
+                    numberLocale={numberLocale}
+                  />
+                  <p className="app-description">{app.description}</p>
+                </div>
+                <span className="app-action">
+                  {app.slug ? apps.detailsLabel : apps.storeLabel} →
+                </span>
+              </>
+            );
+
+            return app.slug ? (
+              <Link key={app.href} href={`/apps/${app.slug}/`} className="app-card">
+                {cardInner}
+              </Link>
+            ) : (
+              <a
+                key={app.href}
+                href={app.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="app-card"
+              >
+                {cardInner}
+              </a>
+            );
+          })}
         </div>
       </div>
     </section>

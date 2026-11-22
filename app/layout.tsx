@@ -1,7 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { AppProviders } from "@/components/AppProviders";
 import "./globals.css";
-import "./fo-site.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://fostudio0.github.io"),
@@ -28,7 +27,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#f6f7fb",
+  themeColor: "#f6f3ed",
 };
 
 export default function RootLayout({

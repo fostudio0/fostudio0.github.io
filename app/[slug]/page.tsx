@@ -1,8 +1,7 @@
+import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { LegalDocumentView } from "@/components/LegalDocumentView";
 import { LEGAL_SLUGS } from "@/lib/legal";
-
-export const dynamicParams = false;
 
 export function generateStaticParams() {
   return LEGAL_SLUGS.map((slug) => ({ slug }));
@@ -27,6 +26,9 @@ export async function generateMetadata({
   params,
 }: LegalDocumentPageProps): Promise<Metadata> {
   const { slug } = await params;
+  if (!LEGAL_SLUGS.includes(slug)) {
+    return {};
+  }
   return {
     title: SLUG_TITLES[slug] ?? "Yasal Belgeler",
     description: "Yasal belgeler",
@@ -40,5 +42,8 @@ export default async function LegalDocumentPage({
   params,
 }: LegalDocumentPageProps) {
   const { slug } = await params;
+  if (!LEGAL_SLUGS.includes(slug)) {
+    notFound();
+  }
   return <LegalDocumentView slug={slug} />;
 }

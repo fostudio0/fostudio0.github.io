@@ -10,14 +10,11 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUTPUT_PATH = path.join(__dirname, "..", "data", "play-apps.json");
 
 const CURATED_ORDER = [
+  "com.ferhatozcelik.agropulse",
   "com.ferhatozcelik.mycodes",
   "ferhatozcelik.zincirikirma",
   "com.ferhatozcelik.ulgen",
   "com.tulparim",
-  "com.ferhatozcelik.spincoater",
-  "com.ferhatozcelik.emojidefense",
-  "ferhatozcelik.trsms",
-  "com.ferhatozcelik.agropulse",
 ];
 
 function parseInstalls(value) {

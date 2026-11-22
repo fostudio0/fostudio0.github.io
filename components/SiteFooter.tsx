@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Messages } from "@/i18n/messages";
 
 type SiteFooterProps = {
@@ -9,9 +10,9 @@ export function SiteFooter({ footer }: SiteFooterProps) {
     <footer className="site-footer">
       <div className="page-shell site-footer-inner">
         <p className="footer-tagline">{footer.tagline}</p>
-        <a href="/legal-documents/" className="footer-link">
+        <Link href="/legal-documents/" className="footer-link">
           {footer.legalDocuments}
-        </a>
+        </Link>
       </div>
     </footer>
   );

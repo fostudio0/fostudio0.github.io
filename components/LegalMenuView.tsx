@@ -1,27 +1,29 @@
 "use client";
 
+import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import { LegalLayout, LEGAL_CHROME } from "@/components/LegalLayout";
-import { DocumentShimmer } from "@/components/LegalShimmer";
 import { useLocale } from "@/i18n/locale-context";
-import { fetchLegalIndex, type LegalIndex } from "@/lib/legal";
+import { fetchLegalIndex, getFallbackLegalIndex, type LegalIndex } from "@/lib/legal";
 
 export function LegalMenuView() {
   const { locale } = useLocale();
   const chrome = LEGAL_CHROME[locale];
 
-  const [index, setIndex] = useState<LegalIndex | null>(null);
+  const [index, setIndex] = useState<LegalIndex>(() => getFallbackLegalIndex(locale));
   const [failed, setFailed] = useState(false);
 
   const load = useCallback(async () => {
-    setFailed(false);
     try {
       const next = await fetchLegalIndex(locale);
       setIndex(next);
+      setFailed(false);
     } catch {
-      setFailed(true);
+      if (!index || index.documents.length === 0) {
+        setFailed(true);
+      }
     }
-  }, [locale]);
+  }, [locale, index]);
 
   useEffect(() => {
     load();
@@ -51,10 +53,10 @@ export function LegalMenuView() {
             {locale === "tr" ? "Tekrar dene" : "Retry"}
           </button>
         </div>
-      ) : index ? (
+      ) : (
         <nav className="legal-menu" aria-label={chrome.menuTitle}>
           {index.documents.map((item) => (
-            <a
+            <Link
               key={item.slug}
               href={item.slug === "privacy" ? "/privacy-policy/" : `/${item.slug}/`}
               className="legal-menu-item"
@@ -63,11 +65,9 @@ export function LegalMenuView() {
               <span className="legal-menu-arrow" aria-hidden="true">
                 →
               </span>
-            </a>
+            </Link>
           ))}
         </nav>
-      ) : (
-        <DocumentShimmer />
       )}
     </LegalLayout>
   );

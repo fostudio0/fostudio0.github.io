@@ -1,3 +1,5 @@
+import legalFallback from "@/data/legal-fallback.json";
+
 export type LegalDocument = {
   slug: string;
   type: string;
@@ -90,6 +92,40 @@ function cleanLegalHtml(html: string): string {
     .trim();
 }
 
+export function getFallbackLegalIndex(lang: string): LegalIndex {
+  const norm = lang === "tr" ? "tr" : "en";
+  const data = (legalFallback.indexes as Record<string, any>)[norm] || legalFallback.indexes.tr;
+  return {
+    packageName: LEGAL_PACKAGE,
+    lang: norm,
+    documents: data.documents ?? [],
+  };
+}
+
+export function getFallbackLegalDocument(lang: string, slug: string): LegalDocument {
+  const norm = lang === "tr" ? "tr" : "en";
+  const langDocs = (legalFallback.docs as Record<string, any>)[norm] || legalFallback.docs.tr;
+  const docData = langDocs[slug] || (legalFallback.docs.tr as Record<string, any>)[slug];
+  if (!docData) {
+    return {
+      slug,
+      type: "",
+      lang: norm,
+      title: slug,
+      html: "<p>Belge hazırlanıyor.</p>",
+      updatedAt: null,
+    };
+  }
+  return {
+    slug: docData.slug ?? slug,
+    type: docData.type ?? "",
+    lang: docData.lang ?? norm,
+    title: docData.title ?? slug,
+    html: cleanLegalHtml(docData.html ?? ""),
+    updatedAt: docData.updated_at ?? null,
+  };
+}
+
 async function fetchJson<T>(url: string): Promise<T> {
   const res = await fetch(url, {
     headers: { Accept: "application/json" },
@@ -107,22 +143,26 @@ export async function fetchLegalIndex(lang: string): Promise<LegalIndex> {
     return cached;
   }
 
-  const query = new URLSearchParams({ lang, format: "json" });
-  const url = `${LEGAL_ORIGIN}/functions/v1/legal/${LEGAL_PACKAGE}?${query.toString()}`;
+  try {
+    const query = new URLSearchParams({ lang, format: "json" });
+    const url = `${LEGAL_ORIGIN}/functions/v1/legal/${LEGAL_PACKAGE}?${query.toString()}`;
 
-  const data = await fetchJson<{
-    lang?: string;
-    documents?: Array<{ slug: string; type: string; title: string }>;
-  }>(url);
+    const data = await fetchJson<{
+      lang?: string;
+      documents?: Array<{ slug: string; type: string; title: string }>;
+    }>(url);
 
-  const index: LegalIndex = {
-    packageName: LEGAL_PACKAGE,
-    lang: data.lang ?? lang,
-    documents: data.documents ?? [],
-  };
+    const index: LegalIndex = {
+      packageName: LEGAL_PACKAGE,
+      lang: data.lang ?? lang,
+      documents: data.documents ?? [],
+    };
 
-  setCached(cacheKey, index);
-  return index;
+    setCached(cacheKey, index);
+    return index;
+  } catch {
+    return getFallbackLegalIndex(lang);
+  }
 }
 
 export async function fetchLegalDocument(
@@ -135,27 +175,31 @@ export async function fetchLegalDocument(
     return cached;
   }
 
-  const query = new URLSearchParams({ lang, format: "json" });
-  const url = `${LEGAL_ORIGIN}/functions/v1/legal/${LEGAL_PACKAGE}/${slug}?${query.toString()}`;
+  try {
+    const query = new URLSearchParams({ lang, format: "json" });
+    const url = `${LEGAL_ORIGIN}/functions/v1/legal/${LEGAL_PACKAGE}/${slug}?${query.toString()}`;
 
-  const data = await fetchJson<{
-    slug?: string;
-    type?: string;
-    lang?: string;
-    title?: string;
-    html?: string;
-    updated_at?: string | null;
-  }>(url);
+    const data = await fetchJson<{
+      slug?: string;
+      type?: string;
+      lang?: string;
+      title?: string;
+      html?: string;
+      updated_at?: string | null;
+    }>(url);
 
-  const doc: LegalDocument = {
-    slug: data.slug ?? slug,
-    type: data.type ?? "",
-    lang: data.lang ?? lang,
-    title: data.title ?? "",
-    html: cleanLegalHtml(data.html ?? ""),
-    updatedAt: data.updated_at ?? null,
-  };
+    const doc: LegalDocument = {
+      slug: data.slug ?? slug,
+      type: data.type ?? "",
+      lang: data.lang ?? lang,
+      title: data.title ?? "",
+      html: cleanLegalHtml(data.html ?? ""),
+      updatedAt: data.updated_at ?? null,
+    };
 
-  setCached(cacheKey, doc);
-  return doc;
+    setCached(cacheKey, doc);
+    return doc;
+  } catch {
+    return getFallbackLegalDocument(lang, slug);
+  }
 }

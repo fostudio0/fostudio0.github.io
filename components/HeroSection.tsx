@@ -1,5 +1,7 @@
+import Link from "next/link";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { HeroAnimatedTitle } from "@/components/HeroAnimatedTitle";
+import { HeroStatGrid } from "@/components/HeroStatGrid";
 import { LogoMark } from "@/components/LogoMark";
 import type { AppItem } from "@/lib/play-apps";
 import type { Messages } from "@/i18n/messages";
@@ -14,13 +16,13 @@ export function SiteHeader({ brand, wordmark }: SiteHeaderProps) {
     <header className="site-header">
       <div className="page-shell site-header-inner">
         {wordmark ? (
-          <a href="/" className="brand brand-text">
+          <Link href="/" className="brand brand-text">
             {wordmark}
-          </a>
+          </Link>
         ) : (
-          <a href="/" className="brand">
+          <Link href="/" className="brand">
             <LogoMark className="brand-mark" title={brand} />
-          </a>
+          </Link>
         )}
         <LanguageSwitcher />
       </div>
@@ -54,7 +56,7 @@ export function HeroSection({ hero, stats, apps }: HeroSectionProps) {
           </a>
         </div>
 
-        <div className="hero-panel" aria-hidden="true">
+        <div className="hero-panel">
           <div className="hero-panel-card">
             <div className="hero-showcase">
               <LogoMark className="hero-showcase-logo" decorative />
@@ -66,14 +68,7 @@ export function HeroSection({ hero, stats, apps }: HeroSectionProps) {
                 ))}
               </div>
             </div>
-            <div className="hero-stat-grid">
-              {stats.map((stat) => (
-                <div key={stat.label} className="hero-stat">
-                  <div className="hero-stat-value">{stat.value}</div>
-                  <div className="hero-stat-label">{stat.label}</div>
-                </div>
-              ))}
-            </div>
+            <HeroStatGrid stats={stats} />
           </div>
         </div>
       </div>

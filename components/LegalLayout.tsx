@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import type { ReactNode } from "react";
 import { SiteHeader } from "@/components/HeroSection";
 import { useLocale } from "@/i18n/locale-context";
@@ -44,18 +45,18 @@ export function LegalLayout({ backHref, backLabel, children }: LegalLayoutProps)
       <SiteHeader wordmark={chrome.menuTitle} />
       <main className="policy-main page-shell">
         <div className="policy-toolbar">
-          <a href={backHref} className="policy-back-link">
+          <Link href={backHref} className="policy-back-link">
             ← {backLabel}
-          </a>
+          </Link>
         </div>
         {children}
       </main>
 
       <footer className="policy-footer">
         <div className="page-shell policy-footer-inner">
-          <a href="/legal-documents/" className="footer-link">
+          <Link href="/legal-documents/" className="footer-link">
             {chrome.menuTitle}
-          </a>
+          </Link>
         </div>
       </footer>
     </div>

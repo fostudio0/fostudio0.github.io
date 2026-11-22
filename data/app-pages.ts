@@ -26,6 +26,47 @@ export type AppPageContent = {
 
 export const APP_PAGES: AppPageContent[] = [
   {
+    appId: "com.ferhatozcelik.agropulse",
+    slug: "agropulse",
+    accent: "#3f8f4a",
+    copy: {
+      tr: {
+        category: "Tarım",
+        short: "Uydudan bitki sağlığı, sulama önerisi ve tarla kazanç takibi.",
+        tagline: "Uydu verisini tarlanız için sade tavsiyelere dönüştürür.",
+        intro:
+          "AgroPulse ile tarlanızı haritada işaretlemeniz yeterli. Uydu görüntülerinden bitki sağlığını, toprak nemini ve yağışı takip eder; ne zaman sulamanız gerektiğini sade bir dille söyler. Masraf ve satışlarınızı kaydederek sezon sonunda elinize ne kaldığını görürsünüz.",
+        features: [
+          { emoji: "🛰️", title: "Uydudan bitki sağlığı", text: "Uydu görüntülerinden hesaplanan yeşillik puanı ile ürününüzün durumunu görün." },
+          { emoji: "💧", title: "Toprak nemi", text: "Üst toprak ve kök bölgesi için uydu ölçümleri." },
+          { emoji: "🌦️", title: "Yağış ve su kaybı", text: "Tarlanız için günlük buharlaşma ve yağış verileri." },
+          { emoji: "✅", title: "Net sulama tavsiyesi", text: "Ne zaman sulamanız ve neye bakmanız gerektiğini sade dille söyler." },
+          { emoji: "💰", title: "Kazanç takibi", text: "Tohum, gübre, mazot, işçilik ve satışları kaydedin; tarla tarla kârınızı görün." },
+          { emoji: "📐", title: "Otomatik alan hesabı", text: "Tarlanın köşelerine dokunun; dekar ya da hektar olarak alan hesaplansın." },
+        ],
+        audience: ["Çiftçiler", "Tarım danışmanları", "Aile işletmeleri", "Birden fazla tarlası olanlar"],
+        closing: "Tarlanıza gitmeden durumunu bilin. Suyu, emeği ve parayı doğru yere harcayın.",
+      },
+      en: {
+        category: "Agriculture",
+        short: "Crop health from satellite, irrigation advice and field profit tracking.",
+        tagline: "Turns satellite data into simple advice for your field.",
+        intro:
+          "With AgroPulse you just mark your field on the map. It tracks crop health, soil moisture and rainfall from satellite imagery and tells you in plain language when to irrigate. Log your costs and sales to see what you actually earned at the end of the season.",
+        features: [
+          { emoji: "🛰️", title: "Crop health from satellite", text: "See how your crop is doing with a greenness score computed from satellite imagery." },
+          { emoji: "💧", title: "Soil moisture", text: "Satellite readings for topsoil and the root zone." },
+          { emoji: "🌦️", title: "Rainfall and water loss", text: "Daily evaporation and rainfall data for your field." },
+          { emoji: "✅", title: "Clear irrigation advice", text: "Tells you in plain words when to water and what to check." },
+          { emoji: "💰", title: "Profit tracking", text: "Log seed, fertiliser, fuel, labour and sales; see profit field by field." },
+          { emoji: "📐", title: "Automatic area calculation", text: "Tap the corners of your field to get its area in decares or hectares." },
+        ],
+        audience: ["Farmers", "Agricultural advisers", "Family farms", "Growers with several fields"],
+        closing: "Know how your field is doing before you get there. Spend water, effort and money where it counts.",
+      },
+    },
+  },
+  {
     appId: "com.ferhatozcelik.mycodes",
     slug: "my-codes",
     accent: "#6a3fd0",
@@ -310,47 +351,6 @@ export const APP_PAGES: AppPageContent[] = [
         ],
         audience: ["Konya locals", "Visitors to the city", "Families and children", "School trips"],
         closing: "Turn your next walk into an adventure. Get to know Konya by playing.",
-      },
-    },
-  },
-  {
-    appId: "com.ferhatozcelik.agropulse",
-    slug: "agropulse",
-    accent: "#3f8f4a",
-    copy: {
-      tr: {
-        category: "Tarım",
-        short: "Uydudan bitki sağlığı, sulama önerisi ve tarla kazanç takibi.",
-        tagline: "Uydu verisini tarlanız için sade tavsiyelere dönüştürür.",
-        intro:
-          "AgroPulse ile tarlanızı haritada işaretlemeniz yeterli. Uydu görüntülerinden bitki sağlığını, toprak nemini ve yağışı takip eder; ne zaman sulamanız gerektiğini sade bir dille söyler. Masraf ve satışlarınızı kaydederek sezon sonunda elinize ne kaldığını görürsünüz.",
-        features: [
-          { emoji: "🛰️", title: "Uydudan bitki sağlığı", text: "Uydu görüntülerinden hesaplanan yeşillik puanı ile ürününüzün durumunu görün." },
-          { emoji: "💧", title: "Toprak nemi", text: "Üst toprak ve kök bölgesi için uydu ölçümleri." },
-          { emoji: "🌦️", title: "Yağış ve su kaybı", text: "Tarlanız için günlük buharlaşma ve yağış verileri." },
-          { emoji: "✅", title: "Net sulama tavsiyesi", text: "Ne zaman sulamanız ve neye bakmanız gerektiğini sade dille söyler." },
-          { emoji: "💰", title: "Kazanç takibi", text: "Tohum, gübre, mazot, işçilik ve satışları kaydedin; tarla tarla kârınızı görün." },
-          { emoji: "📐", title: "Otomatik alan hesabı", text: "Tarlanın köşelerine dokunun; dekar ya da hektar olarak alan hesaplansın." },
-        ],
-        audience: ["Çiftçiler", "Tarım danışmanları", "Aile işletmeleri", "Birden fazla tarlası olanlar"],
-        closing: "Tarlanıza gitmeden durumunu bilin. Suyu, emeği ve parayı doğru yere harcayın.",
-      },
-      en: {
-        category: "Agriculture",
-        short: "Crop health from satellite, irrigation advice and field profit tracking.",
-        tagline: "Turns satellite data into simple advice for your field.",
-        intro:
-          "With AgroPulse you just mark your field on the map. It tracks crop health, soil moisture and rainfall from satellite imagery and tells you in plain language when to irrigate. Log your costs and sales to see what you actually earned at the end of the season.",
-        features: [
-          { emoji: "🛰️", title: "Crop health from satellite", text: "See how your crop is doing with a greenness score computed from satellite imagery." },
-          { emoji: "💧", title: "Soil moisture", text: "Satellite readings for topsoil and the root zone." },
-          { emoji: "🌦️", title: "Rainfall and water loss", text: "Daily evaporation and rainfall data for your field." },
-          { emoji: "✅", title: "Clear irrigation advice", text: "Tells you in plain words when to water and what to check." },
-          { emoji: "💰", title: "Profit tracking", text: "Log seed, fertiliser, fuel, labour and sales; see profit field by field." },
-          { emoji: "📐", title: "Automatic area calculation", text: "Tap the corners of your field to get its area in decares or hectares." },
-        ],
-        audience: ["Farmers", "Agricultural advisers", "Family farms", "Growers with several fields"],
-        closing: "Know how your field is doing before you get there. Spend water, effort and money where it counts.",
       },
     },
   },
