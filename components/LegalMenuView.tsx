@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { LegalLayout, LEGAL_CHROME } from "@/components/LegalLayout";
 import { useLocale } from "@/i18n/locale-context";
 import { fetchLegalIndex, getFallbackLegalIndex, type LegalIndex } from "@/lib/legal";
@@ -13,21 +13,28 @@ export function LegalMenuView() {
   const [index, setIndex] = useState<LegalIndex>(() => getFallbackLegalIndex(locale));
   const [failed, setFailed] = useState(false);
 
-  const load = useCallback(async () => {
-    try {
-      const next = await fetchLegalIndex(locale);
-      setIndex(next);
-      setFailed(false);
-    } catch {
-      if (!index || index.documents.length === 0) {
-        setFailed(true);
-      }
-    }
-  }, [locale, index]);
-
   useEffect(() => {
-    load();
-  }, [load]);
+    const fallback = getFallbackLegalIndex(locale);
+    setIndex(fallback);
+    setFailed(false);
+
+    let cancelled = false;
+    fetchLegalIndex(locale)
+      .then((next) => {
+        if (!cancelled && next && next.documents && next.documents.length > 0) {
+          setIndex(next);
+        }
+      })
+      .catch(() => {
+        if (!cancelled && (!fallback || !fallback.documents || fallback.documents.length === 0)) {
+          setFailed(true);
+        }
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [locale]);
 
   useEffect(() => {
     document.title = chrome.menuTitle;
@@ -49,7 +56,18 @@ export function LegalMenuView() {
               ? "Belgeler yüklenemedi. Lütfen tekrar deneyin."
               : "The documents could not be loaded. Please try again."}
           </p>
-          <button type="button" className="policy-retry" onClick={load}>
+          <button
+            type="button"
+            className="policy-retry"
+            onClick={() => {
+              setFailed(false);
+              fetchLegalIndex(locale)
+                .then((next) => {
+                  if (next && next.documents.length > 0) setIndex(next);
+                })
+                .catch(() => setFailed(true));
+            }}
+          >
             {locale === "tr" ? "Tekrar dene" : "Retry"}
           </button>
         </div>

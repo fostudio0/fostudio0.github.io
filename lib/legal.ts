@@ -123,14 +123,21 @@ export function getFallbackLegalDocument(lang: string, slug: string): LegalDocum
   };
 }
 
-async function fetchJson<T>(url: string): Promise<T> {
-  const res = await fetch(url, {
-    headers: { Accept: "application/json" },
-  });
-  if (!res.ok) {
-    throw new Error(`Legal request failed (${res.status})`);
+async function fetchJson<T>(url: string, timeoutMs = 3500): Promise<T> {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const res = await fetch(url, {
+      headers: { Accept: "application/json" },
+      signal: controller.signal,
+    });
+    if (!res.ok) {
+      throw new Error(`Legal request failed (${res.status})`);
+    }
+    return (await res.json()) as T;
+  } finally {
+    clearTimeout(timer);
   }
-  return (await res.json()) as T;
 }
 
 export async function fetchLegalIndex(lang: string): Promise<LegalIndex> {

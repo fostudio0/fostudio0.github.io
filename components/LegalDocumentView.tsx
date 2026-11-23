@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { LegalLayout, LEGAL_CHROME } from "@/components/LegalLayout";
 import { useLocale } from "@/i18n/locale-context";
 import { fetchLegalDocument, getFallbackLegalDocument, type LegalDocument } from "@/lib/legal";
@@ -16,21 +16,28 @@ export function LegalDocumentView({ slug }: LegalDocumentViewProps) {
   const [doc, setDoc] = useState<LegalDocument>(() => getFallbackLegalDocument(locale, slug));
   const [failed, setFailed] = useState(false);
 
-  const load = useCallback(async () => {
-    try {
-      const next = await fetchLegalDocument(locale, slug);
-      setDoc(next);
-      setFailed(false);
-    } catch {
-      if (!doc || !doc.html) {
-        setFailed(true);
-      }
-    }
-  }, [locale, slug, doc]);
-
   useEffect(() => {
-    load();
-  }, [load]);
+    const fallback = getFallbackLegalDocument(locale, slug);
+    setDoc(fallback);
+    setFailed(false);
+
+    let cancelled = false;
+    fetchLegalDocument(locale, slug)
+      .then((next) => {
+        if (!cancelled && next && next.html) {
+          setDoc(next);
+        }
+      })
+      .catch(() => {
+        if (!cancelled && (!fallback || !fallback.html)) {
+          setFailed(true);
+        }
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [locale, slug]);
 
   useEffect(() => {
     if (doc) {
@@ -56,7 +63,18 @@ export function LegalDocumentView({ slug }: LegalDocumentViewProps) {
               ? "Belge yüklenemedi. Lütfen tekrar deneyin."
               : "The document could not be loaded. Please try again."}
           </p>
-          <button type="button" className="policy-retry" onClick={load}>
+          <button
+            type="button"
+            className="policy-retry"
+            onClick={() => {
+              setFailed(false);
+              fetchLegalDocument(locale, slug)
+                .then((next) => {
+                  if (next && next.html) setDoc(next);
+                })
+                .catch(() => setFailed(true));
+            }}
+          >
             {locale === "tr" ? "Tekrar dene" : "Retry"}
           </button>
         </div>
