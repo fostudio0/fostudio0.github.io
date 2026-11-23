@@ -1,4 +1,44 @@
-{
+// Auto-generated strongly typed static legal fallback data
+export const LEGAL_SLUGS = [
+  "privacy",
+  "terms",
+  "account-deletion",
+  "cookies",
+  "membership",
+  "visitor",
+  "commercial",
+  "application",
+] as const;
+
+export type LegalSlug = (typeof LEGAL_SLUGS)[number];
+
+export interface FallbackDocItem {
+  slug: string;
+  type?: string;
+  lang?: string;
+  title?: string;
+  html?: string;
+  updated_at?: string | null;
+  [key: string]: any;
+}
+
+export interface FallbackIndexData {
+  lang: string;
+  documents: Array<{
+    slug: string;
+    type: string;
+    title: string;
+    [key: string]: any;
+  }>;
+  [key: string]: any;
+}
+
+export interface LegalStaticData {
+  indexes: Record<string, FallbackIndexData>;
+  docs: Record<string, Record<string, FallbackDocItem>>;
+}
+
+export const LEGAL_STATIC_DATA: LegalStaticData = {
   "indexes": {
     "tr": {
       "package_name": "fostudio0.github.io",
@@ -421,4 +461,4 @@
       }
     }
   }
-}
+};

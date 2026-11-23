@@ -1,4 +1,11 @@
-import legalFallback from "@/data/legal-fallback.json";
+import {
+  LEGAL_STATIC_DATA,
+  LEGAL_SLUGS,
+  type LegalSlug,
+} from "@/data/legal-docs-data";
+
+export { LEGAL_SLUGS };
+export type { LegalSlug };
 
 export type LegalDocument = {
   slug: string;
@@ -21,16 +28,6 @@ export type LegalIndex = {
 
 const LEGAL_ORIGIN = "https://jcqkznspriizdmsbjvvj.supabase.co";
 const LEGAL_PACKAGE = "fostudio0.github.io";
-export const LEGAL_SLUGS = [
-  "privacy",
-  "terms",
-  "account-deletion",
-  "cookies",
-  "membership",
-  "visitor",
-  "commercial",
-  "application",
-];
 const TTL_MS = 72 * 60 * 60 * 1000;
 const CACHE_KEY = "fo-studio-legal-cache";
 
@@ -94,7 +91,7 @@ function cleanLegalHtml(html: string): string {
 
 export function getFallbackLegalIndex(lang: string): LegalIndex {
   const norm = lang === "tr" ? "tr" : "en";
-  const data = (legalFallback.indexes as Record<string, any>)[norm] || legalFallback.indexes.tr;
+  const data = LEGAL_STATIC_DATA.indexes[norm] || LEGAL_STATIC_DATA.indexes.tr;
   return {
     packageName: LEGAL_PACKAGE,
     lang: norm,
@@ -104,8 +101,8 @@ export function getFallbackLegalIndex(lang: string): LegalIndex {
 
 export function getFallbackLegalDocument(lang: string, slug: string): LegalDocument {
   const norm = lang === "tr" ? "tr" : "en";
-  const langDocs = (legalFallback.docs as Record<string, any>)[norm] || legalFallback.docs.tr;
-  const docData = langDocs[slug] || (legalFallback.docs.tr as Record<string, any>)[slug];
+  const langDocs = LEGAL_STATIC_DATA.docs[norm] || LEGAL_STATIC_DATA.docs.tr;
+  const docData = langDocs[slug] || LEGAL_STATIC_DATA.docs.tr[slug];
   if (!docData) {
     return {
       slug,
